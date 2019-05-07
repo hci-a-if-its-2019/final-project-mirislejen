@@ -35,7 +35,7 @@ user description
 ## Transcript
 ### Participant 1:
 F : Me, K : User
-(this conversation has been translated to Indonesia language and consist of important parts)
+<br>(this conversation has been translated to Indonesia language and consist of important parts)</br>
 
 1.	F : Sudah pernah pakai Shopee sebelumnya ?
 2.	K : Sudah, biasanya untuk beli-beli barang sering lewat Shopee
