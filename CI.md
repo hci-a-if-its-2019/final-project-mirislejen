@@ -15,10 +15,12 @@
 - User is a 19 years old Indonesian Female
 - User never open the seller page of Shopee
 - User study at Statistics Department ITS
+
 ### Participant 2: 
-```
-user description
-```
+- User is a 23 years old Male
+- User never use shopee at all
+- User study at Informatics Departement ITS
+
 ### Participant 3: 
 ```
 user description
@@ -33,8 +35,7 @@ user description
 ```
 
 ## Transcript
-### Participant 1:
-F : Me, K : User
+### Participant 1: K
 <br>(this conversation has been translated to Indonesia language and consist of important parts)</br>
 
 1.	F : Sudah pernah pakai Shopee sebelumnya ?
@@ -74,10 +75,53 @@ F : Me, K : User
 35.	F : Okee, terima kasih ya atas waktunya yak
 36.	K : Okee, sama-sama zan
 
-### Participant 2: 
-```
-transcript 2
-```
+### Participant 2: R
+1. R : ngetesnya ini ngapain aja?
+2. T : buat yang pertama, coba daftar akun shopee
+3. R : lumayan kecil juga tulisannya
+4. (R membuka Pop-Up Daftar, mendekat ke layar)
+5. T : apa yang ada di pikiranmu?
+6. R : tulisan penjelas tiap kotaknya hampir gak keliatan, kurang tebal tulisannya
+7. (R selesai mendaftarkan akun ke shopee)
+8. T : ok, sekarang coba keluar dari akun dulu
+9. (R keluar dari akun)
+10. T : coba buka halaman penjual
+11. R : dimana bukanya ini...
+12. (R berhasil membuka halaman penjual)
+13. T : gimana menurut anda
+14. R : kurang bagus ini, apalagi ibu2 yang penglihatannya mulai menurun bakal susah nemuinnya
+15. T : sip, sekarang login ke akunnya
+16. R : ini apakah menggunakan akun tadi atau bikin akun baru? Kucoba login pakai akun tadi aja
+17. (R mencoba login dengan akun sebelumnya)
+18. R : oh, ternyata bisa. Btw baru disini kok gak ada tombol daftarnya ya
+19. T : ok, sekarang coba buat informasi produk untuk dijual
+20. (R ke halaman 'Produk Saya', membuat produk baru sekaligus mulai mengisi informasi produk yang akan dijual)
+21. T : ada tanggapan?
+22. R : ini kurang deskripsi style menurutku. Gak mesti semua orang paham maksudnya
+23. (R terlihat kebingungan ketika akan mengisi variasi)
+24. T : gimana menurutmu?
+25. R : di bagian variasi yang tulisan keterangan ini daripada pakai kata 'nama' mending pakai kata 'nama kategori' biar gak bikin bingung
+26. (R terlihat mencari sesuatu di bagian variasi, lalu menekan tanda silang di box variasi)
+27. T : gak jadi ngisi?
+28. R : gak, ini gak ada tombol untuk save, kukira harus diconfirm dulu karena ada tanda silang di atasnya
+29. (R terlihat sedang berpikir ketika akan mengisi bagian informasi variasi)
+30. T : gimana menurutmu?
+31. R : informasi variasi dan daftar variasi kukira dua aspek berbeda, ternyata yang informasi variasi bisa mengubah yang di daftar variasi
+32. (R selesai mengisikan informasi produk)
+33. R : baru sadar, tanda bintang gak ada keterangannya ya
+34. T : ok sip, selanjutnya coba ubah alamat toko
+35. (R membuka profil toko dan ke tab 'Alamat Saya')
+36. T : menurutmu gimana halaman ini? (Pop-Up dari 'Tambah Alamat')
+37. R : gak ada masalah sih, cuma kok gak bisa mengetikkan langsung alamat. Mestinya pengguna bisa mengetik, lalu ada rekomendasi auto complete-nya biar enak
+38. (R selesai mengisikan alamat dan tidak sengaja klik OK 2x, alamat yang baru dibuat muncul 2x)
+39. R : lho, munculnya kok 2
+40. T : masalah shopee nya mungkin, gak apa apa. Selanjutnya coba aktifkan layanan pengiriman barang untuk JNE dan matikan layanan pengiriman barang melalu J&T
+41. (R mencari di halaman 'Pengaturan Toko' sebelum menemukan ada halaman 'Jasa Pengiriman')
+42. (R mengklik slider on/off lalu muncul Pop-Up konfirmasi)
+43. R : ini ok/cancel tidak terlihat seperti tombol ya
+44. T : Ok, makasih ya waktunya, R
+45. R : Yoi, Fiq
+
 ### Participant 3: 
 ```
 transcript 3
