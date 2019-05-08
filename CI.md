@@ -22,9 +22,10 @@
 - User study at Informatics Departement ITS
 
 ### Participant 3: 
-```
-user description
-```
+- User is a 22 years old Indonesian male
+- User never use Shopee
+- User study at Product Design Department ITS
+
 ### Participant 4: 
 ```
 user description
@@ -122,10 +123,49 @@ user description
 44. T : Ok, makasih ya waktunya, R
 45. R : Yoi, Fiq
 
-### Participant 3: 
-```
-transcript 3
-```
+### Participant 3: M
+1.	F : Sudah pernah pakai Shopee sebelumnya ?
+2.	M : Belum gan
+3.	F : Tapi pernah buka web Shopee ?
+4.	M : Pernah, tapi jarang sekali
+5.	F : Oke, sekarang buka web Shopee
+6.	M : Sudah gan
+7.	F : Coba daftar Shopee dulu
+8.	M : Oke
+9.	M : Sudah
+10.	F : Okee, ada kendala waktu mendaftar ? Atau ada masukan untuk tampilan pendaftaran ?
+11.	M : Tidak ada, paling cuma tombol 'nanti saja', kalau tombol 'nanti saja' diklik akan kembali ke home Shopee. Sama seperti kalau kita klik bagian luar laman form pendaftaran juga akan kembali ke home Shopee. Mending satu saja interaksi untuk kembali ke home
+12.	F : Oke. sekarang verifikasi dulu, terus lanjut login
+13.	M : Oke wait
+14.	M : Done
+15.	F : Oke, tidak ada kendala ya
+16.	M : Yoi
+17.	F : Oke, sekarang coba cari menu untuk jual produk
+18.	M : Wait gan
+19.	F : Oke
+20.	M : Tulisan jualnya kecil, tidak kelihatan
+21.	F : Oh iya, kira-kira masukannya apa saja ?
+22.	M : Tulisan jualnya dibuat lebih besar, dan letaknya bisa di dekat tulisan Profil. Terus tulisan dibawah search bar kalau bisa dihilangkan, soalnya agak useless
+23.	F : Oke, sekarang coba buat produk baru
+24.	M : Oke, wait
+25.	F : Oke
+26.	M : Sudah
+27.	F : Oke, sekarang coba set lokasi toko
+28.	M : Oke, sudah. Tapi kok disuruh ngisi detil produk lagi ya
+29.	F : Oke, isi lagi saja
+30.	M : Wait gan
+31.	F : Ok
+32.	M : Sudah
+33.	F : Oh ya ada kendala gak waktu isi detil produk sama set lokasi nya ?
+34.	M : Pas set lokasi lewat map lemot, terus pas kita sudah set lokasi toko, detil produk barang yang kita isi tadi hilang. Jadi kita ngisi lagi, cukup merepotkan sih kalau kita belum terbiasa
+35.	F : Okee, sekarang lanjut. Coba on atau off kan pilihan service jasa pengiriman
+36.	M : Oke, wait-wait
+37.	M : Done gan
+38.	F : Ada kendala waktu coba on atau off service jasa pengiriman ?
+39.	M : Tidak ada sih
+40.	F : Oke, terima kasih atas waktunya gan
+41.	M : Oke sama-sama gan
+
 ### Participant 4: 
 ```
 transcript 4
