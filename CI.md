@@ -123,7 +123,7 @@ user description
 44. T : Ok, makasih ya waktunya, R
 45. R : Yoi, Fiq
 
-### Participant 3: 
+### Participant 3: M
 1.	F : Sudah pernah pakai Shopee sebelumnya ?
 2.	M : Belum gan
 3.	F : Tapi pernah buka web Shopee ?
