@@ -27,9 +27,10 @@
 - User study at Product Design Department ITS
 
 ### Participant 4: 
-```
-user description
-```
+- User is a 20 years old Indonesian male
+- User never use Shopee
+- User study at Informatics Department ITS
+
 ### Participant 5: 
 ```
 user description
@@ -166,10 +167,38 @@ user description
 40.	F : Oke, terima kasih atas waktunya gan
 41.	M : Oke sama-sama gan
 
-### Participant 4: 
-```
-transcript 4
-```
+### Participant 4: A
+1.	F : Sudah pernah memakai Shopee sebelumnya ?
+2.	A : Belum pernah gan
+3.	F : Oke, sekarang coba daftar Shopee
+4.	A : Oke wait
+5.	A : Sudah gan
+6.	F : Gimana, ada kendala ?
+7.	A : Tombol 'kirim verifikasi' kurang jelas kalau itu tombol, terus tombol 'nanti saja' tidak perlu sih. Soalnya untuk kembali ke home tinggal klik di luar form pendaftaran
+8.	F : Okee, sekarang verifikasi. Terus coba login ke Shopee nya
+9.	A : Oke done gan
+10.	F : Ada masukan untuk laman loginnya ?
+11.	A : Hampir sama seperti laman daftar tadi, tombol 'nanti saja' sebaiknya dihilangkan
+12.	F : Oke, sekarang coba cari menu untuk jual produk
+13.	A : Oke wait gan
+14.	A : Sudah
+15.	F : Ada masukan ?
+16.	A : Tombol untuk menu jualnya mending dipindah ke bagian fitur-fitur. atau ukuran font nya agak dibesarin
+17.	F : Okee, sekarang coba buat produk baru
+18.	A : Okee, wait-wait
+19.	A : Done gan
+20.	F : Ada masukan atau kendala mungkin ?
+21.	A : Tidak ada
+22.	F : Oke, sekarang coba set lokasi toko
+23.	A : Oke, wait
+24.	A : Sudah gan, tidak ada masalah buat set lokasi tokonya
+25.	F : Oke, terus coba on atau off kan jasa pengirman
+26.	A : Sudah gan
+27.	F : Ada kendala tidak ?
+28.	A : Tidak ada gan
+29.	F : Oke, terima kasih gan atas waktunya
+30.	A : Sama-sama gan
+
 ### Participant 5: 
 ```
 transcript 5
