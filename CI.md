@@ -7,7 +7,7 @@
 2. Log In
 3. Open Seller Page
 4. Make Product Information for Sale
-5. Change Shop Address
+5. Set/Change Shop Address
 6. Set JNE Delivery Service On and J&T Delivery Service Off
 ```
 ## User Description
