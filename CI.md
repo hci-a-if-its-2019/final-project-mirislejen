@@ -70,7 +70,7 @@ user description
 28.	K : Sudah zan
 29.	F : Ada kendala tidak ?
 30.	K : Tidak ada, paling tadi setelah isi lokasi alamat toko terus kan kembali lagi ke halaman yang isinya detil-detil produknya, nah itu harus isi lagi dari awal. Padahal kan tadi sudah kuisi
-31.	F : Oh, okee. Terus sekarang coba on atau off kan service jasa pengiriman
+31.	F : Oh, okee. Terus sekarang coba buat on jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 32.	K : Oke
 33.	F : Gimana, ada kendala ?
 34.	K : Tidak ada
@@ -159,7 +159,7 @@ user description
 32.	M : Sudah
 33.	F : Oh ya ada kendala gak waktu isi detil produk sama set lokasi nya ?
 34.	M : Pas set lokasi lewat map lemot, terus pas kita sudah set lokasi toko, detil produk barang yang kita isi tadi hilang. Jadi kita ngisi lagi, cukup merepotkan sih kalau kita belum terbiasa
-35.	F : Okee, sekarang lanjut. Coba on atau off kan pilihan service jasa pengiriman
+35.	F : Okee, sekarang lanjut. Coba on kan jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 36.	M : Oke, wait-wait
 37.	M : Done gan
 38.	F : Ada kendala waktu coba on atau off service jasa pengiriman ?
@@ -192,7 +192,7 @@ user description
 22.	F : Oke, sekarang coba set lokasi toko
 23.	A : Oke, wait
 24.	A : Sudah gan, tidak ada masalah buat set lokasi tokonya
-25.	F : Oke, terus coba on atau off kan jasa pengirman
+25.	F : Oke, terus coba on untuk jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 26.	A : Sudah gan
 27.	F : Ada kendala tidak ?
 28.	A : Tidak ada gan
@@ -229,7 +229,7 @@ user description
 27.	N : Sudah
 28.	F : Ada kendala ?
 29.	N : Tidak ada
-30.	F : Oke, sekarang coba on atau off kan jasa pengiriman toko
+30.	F : Oke, sekarang coba buat on jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 31.	N : Oke
 32.	N : Menurutku tampilannya kurang rapi waktu diklik detilnya
 33.	F : Oke, terima kasih atas waktunya
