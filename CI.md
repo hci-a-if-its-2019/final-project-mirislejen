@@ -158,12 +158,12 @@ user description
 31.	F : Ok
 32.	M : Sudah
 33.	F : Oh ya ada kendala gak waktu isi detil produk sama set lokasi nya ?
-34.	M : Pas set lokasi lewat map lemot, terus pas kita sudah set lokasi toko, detil produk barang yang kita isi tadi hilang. Jadi kita ngisi lagi, cukup merepotkan sih kalau kita belum terbiasa
+34.	M : Tidak ada kesulitan waktu isi detil produk dan set lokasi
 35.	F : Okee, sekarang lanjut. Coba on kan jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 36.	M : Oke, wait-wait
 37.	M : Done gan
 38.	F : Ada kendala waktu coba on atau off service jasa pengiriman ?
-39.	M : Tidak ada sih
+39.	M : Tidak ada sih, cuma notifikasi untuk konfirmasi nya kurang enak dilihat
 40.	F : Oke, terima kasih atas waktunya gan
 41.	M : Oke sama-sama gan
 
@@ -231,7 +231,7 @@ user description
 29.	N : Tidak ada
 30.	F : Oke, sekarang coba buat on jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 31.	N : Oke
-32.	N : Menurutku tampilannya kurang rapi waktu diklik detilnya
+32.	N : Menurutku tampilannya kurang rapi waktu muncul norifikasi untuk konfirmasi
 33.	F : Oke, terima kasih atas waktunya
 34.	N : Oke sama-sama
 
