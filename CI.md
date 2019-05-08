@@ -88,12 +88,12 @@ user description
 10. T : coba buka halaman penjual
 11. R : dimana bukanya ini...
 12. (R berhasil membuka halaman penjual)
-13. T : gimana menurut anda
+13. T : gimana menurutmu?
 14. R : kurang bagus ini, apalagi ibu2 yang penglihatannya mulai menurun bakal susah nemuinnya
 15. T : sip, sekarang login ke akunnya
 16. R : ini apakah menggunakan akun tadi atau bikin akun baru? Kucoba login pakai akun tadi aja
 17. (R mencoba login dengan akun sebelumnya)
-18. R : oh, ternyata bisa. Btw baru disini kok gak ada tombol daftarnya ya
+18. R : oh, ternyata bisa. Btw disini kok gak ada tombol daftarnya ya
 19. T : ok, sekarang coba buat informasi produk untuk dijual
 20. (R ke halaman 'Produk Saya', membuat produk baru sekaligus mulai mengisi informasi produk yang akan dijual)
 21. T : ada tanggapan?
