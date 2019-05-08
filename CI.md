@@ -200,9 +200,40 @@ user description
 30.	A : Sama-sama gan
 
 ### Participant 5: 
-```
-transcript 5
-```
+1.	F : Sudah pernah pakai Shopee sebelumnya ?
+2.	N : Belum sama sekali
+3.	F : Oke, sekarang coba buka Shopee
+4.	N : Sudah
+5.	F : Sekarang coba daftar di Shopee
+6.	N : Oke, wait
+7.	F : Oke
+8.	N : Sudah, terus ?
+9.	F : Gimana, ada kendala tidak waktu daftar tadi
+10.	N : Tidak ada
+11.	F : Oke, sekarang coba verifikasi dulu. Terus login ke akun Shopeemu
+12.	N : Oke
+13.	N : Sudah
+14.	F : Oke, sekarang coba cari menu jual
+15.	N : Oke, wait kucari dulu
+16.	F : Oke
+17.	N : Sudah
+18.	F : Ada kendala tidak waktu mencari tombol menu jualnya ?
+19.	N : Tulisan menu jualnya letaknya tidak strategis, susah terlihat, padahal kan menu jual ini juga menu penting. Letaknya bisa dipindah di dekat profil atau dimana yang mudah terlihat
+20.	F : Oke, terus sekarang coba buat produk baru
+21.	N : Oke wait
+22.	N : Sudah
+23.	F : Gimana menurutmu ?
+24.	N : Cukup bagus sih, tidak menyulitkan untuk membuat sama mengisi detil produk nya 
+25.	F : Oke, terus sekarang coba set lokasi tokomu
+26.	N : Oke, wait
+27.	N : Sudah
+28.	F : Ada kendala ?
+29.	N : Tidak ada
+30.	F : Oke, sekarang coba on atau off kan jasa pengiriman toko
+31.	N : Oke
+32.	N : Menurutku tampilannya kurang rapi waktu diklik detilnya
+33.	F : Oke, terima kasih atas waktunya
+34.	N : Oke sama-sama
 
 ## Models and Annotations
 ### Artifact Models
