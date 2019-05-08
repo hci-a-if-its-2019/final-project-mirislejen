@@ -69,7 +69,7 @@ user description
 27.	F : Sip
 28.	K : Sudah zan
 29.	F : Ada kendala tidak ?
-30.	K : Tidak ada, paling tadi setelah isi lokasi alamat toko terus kan kembali lagi ke halaman yang isinya detil-detil produknya, nah itu harus isi lagi dari awal. Padahal kan tadi sudah kuisi
+30.	K : Tidak ada sih
 31.	F : Oh, okee. Terus sekarang coba buat on jasa pengiriman JNE dan off untuk jasa pengiriman J&T Express
 32.	K : Oke
 33.	F : Gimana, ada kendala ?
