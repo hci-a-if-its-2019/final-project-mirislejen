@@ -282,7 +282,7 @@
 
 ---
 
-###Do's and Dont
+<br>###Do's and Dont</br?
 
 ##Do
 - Make a good design of information
