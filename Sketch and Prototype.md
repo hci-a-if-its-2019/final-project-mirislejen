@@ -57,22 +57,17 @@ Make registration button in the login's box<br/>
 **Solution 2**<br/>
 
 ### 3. Selected Sketch
-For the problem 1, the writer choose the Main Solution because it's mandatory for an
-important feature like changing language is visible from the start when user open the page
+-- under construction --
 
 ### 4. Design Rationale
-The sketch and its selection are made by making oneself seeing the problem from the
-perspective without minding advanced techniques one know. Using this method, one will know
-what's wrong with the interface and what should one do to make it better.
+The sketch and its selection are made by making oneself seeing the problem from the perspective without minding advanced techniques one know. Using this method, one will know what's wrong with the interface and what should one do to make it better.<br/><br/>
 
-For the problem 1, the core problem is the place where language feature placed. So
-all the solutions made are making this feature visible when the user open the page.
+For problems in Artifact 0, the main problem is the size of "Jual" font size, so it is mandatory to make it bigger. As for the unneeded keywords, it is sufficient just by removing the feature.
 
-For the problem 2, the problems are bad frame size and the should-be hyperlink image. So
-all the solutions made are changing the frame size and use the image as hyperlink.
+For problems in Artifact 1 and 2, the explanation text problem can be solved by making it more contrast. The other problem, redundant way to close the login/register pop up, it is sufficient by disabling one method to close the pop up.<br/><br/>
 
-For the problem 3, the problem mainly related to web browser performance. The solutions
-made contain destroying object that are not being shown.
+for problems in Artifact 3, it is enough to solve the problem by making a register button on the seller's login page.<br/><br/>
+
 
 ## Part B: Assumptions
 ### 1. Hardware
