@@ -282,12 +282,12 @@
 
 ---
 
-<br>###Do's and Dont</br?
+### Do's and Dont
 
-##Do
+## Do
 - Make a good design of information
 - Add some necessary button on some page
-##Don't
+## Don't
 - Don't use small font for important feature menu
 - Don't use confusing name
 - Don't use unnecessary button
