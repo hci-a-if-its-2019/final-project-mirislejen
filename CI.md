@@ -1,6 +1,9 @@
 # Contextual Inquiry and Analysis
-## Website Description
-<a href='shopee.co.id'>Shopee</a> is a ...
+## Shopee Website Description
+![Shopee](https://high6.com/wp-content/uploads/2017/09/shopee-philippines-logo.jpg "Shopee Logo")  
+
+[Shopee](https://shopee.co.id/) is a leading e-commerce platform providing customers an easy, secure, and fast online shopping experience. Integrated with logistical and payment support, Shopee platform aims to make online shopping easy and secure for both sellers and buyers. Shopee under Sea Group founded by Forrest Li in 2009 and launched in Singapore in 2015. Shopee has expanded its reach to Malaysia, Thailand, Taiwan, Indonesia, Vietnam and Philippines. Due to the mobile and social element built within the concept, Shopee was described as one of the “5 disruptive ecommerce startups we saw in 2015” by Tech In Asia.  
+
 ## User Task
 ```
 1. Sign Up
