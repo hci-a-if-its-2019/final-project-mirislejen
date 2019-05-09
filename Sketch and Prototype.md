@@ -17,37 +17,44 @@
 
 ### 2. Version Differences
 #### 2.1 Solution for Problems in Artifact 0
-**Solution 1**
-**Solution 2**
-**Solution 3**
+**Solution 1** <br/>
+Make the font size bigger <br/>
+**Solution 2**<br/>
+Make the font size bigger and place it near login/register button<br/>
+**Solution 3**<br/>
+Make an additional page to redirect user based on user's need (buy/sell)<br/>
 
 #### 2.2 Solution for Problems in Artifact 1
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+Make the explanation text bolder<br/>
+**Solution 2**<br/>
+Move the explanation text from input box and make it as input box's name<br/>
 
 #### 2.3 Solution for Problems in Artifact 2
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+Make registration button on the page header<br/>
+**Solution 2**<br/>
+Make registration button in the login's box<br/>
 
 #### 2.4 Solution for Problems in Artifact 3
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+**Solution 2**<br/>
 
 #### 2.5 Solution for Problems in Artifact 4
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+**Solution 2**<br/>
 
 #### 2.6 Solution for Problems in Artifact 5
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+**Solution 2**<br/>
 
 #### 2.7 Solution for Problems in Artifact 6
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+**Solution 2**<br/>
 
 #### 2.8 Solution for Problems in Artifact 8
-**Solution 1**
-**Solution 2**
+**Solution 1**<br/>
+**Solution 2**<br/>
 
 ### 3. Selected Sketch
 For the problem 1, the writer choose the Main Solution because it's mandatory for an
