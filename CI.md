@@ -34,7 +34,7 @@
 ### Participant 5: 
 - User is a 21 years old Indonesian male
 - User never use Shopee
-- User work at 
+- User work at KPPBC Meulaboh
 
 ## Transcript
 ### Participant 1: K
@@ -282,12 +282,12 @@
 
 ---
 
-### Do's and Dont
+## Do's and Dont
 
-## Do
+### Do
 - Make a good design of information
 - Add some necessary button on some page
-## Don't
+### Don't
 - Don't use small font for important feature menu
 - Don't use confusing name
 - Don't use unnecessary button
