@@ -32,9 +32,9 @@
 - User study at Informatics Department ITS
 
 ### Participant 5: 
-```
-user description
-```
+- User is a 21 years old Indonesian male
+- User never use Shopee
+- User work at 
 
 ## Transcript
 ### Participant 1: K
