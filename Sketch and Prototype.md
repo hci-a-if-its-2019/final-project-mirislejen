@@ -7,14 +7,33 @@
 
 ---
 
-![sketch_1](image/sketch_1.png)
+![sketch_1n2](image/sketch_1n2.png)
 
 ---
 
-![sketch_2](image/sketch_2.png)
+![sketch_3](image/sketch_3.png)
 
 ---
 
+![sketch_4](image/sketch_4.png)
+
+---
+
+![sketch_5](image/sketch_5.png)
+
+---
+
+![sketch_6](image/sketch_6.png)
+
+---
+
+![sketch_7](image/sketch_7.png)
+
+---
+
+![sketch_8](image/sketch_8.png)
+
+---
 ### 2. Version Differences
 #### 2.1 Solution for Problems in Artifact 0
 **Solution 1** <br/>
