@@ -63,7 +63,9 @@ Make registration button in the login's box<br/>
 
 #### 2.5 Solution for Problems in Artifact 4
 **Solution 1**<br/>
+Show explanation text for every choice when the mouse hover over it<br/>
 **Solution 2**<br/>
+Show the explanation of choice when the choice has been clicked<br/>
 
 #### 2.6 Solution for Problems in Artifact 5
 **Solution 1**<br/>
