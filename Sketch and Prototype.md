@@ -3,15 +3,15 @@
 ### 1. Scan/Photo of Sketches
 ---
 
-![sketch_0](/image/sketch_0.png)
+![sketch_0](image/sketch_0.png)
 
 ---
 
-![sketch_1](/image/sketch_1.png)
+![sketch_1](image/sketch_1.png)
 
 ---
 
-![sketch_2](/image/sketch_2.png)
+![sketch_2](image/sketch_2.png)
 
 ---
 
@@ -32,13 +32,15 @@ Move the explanation text from input box and make it as input box's name<br/>
 
 #### 2.3 Solution for Problems in Artifact 2
 **Solution 1**<br/>
-Make registration button on the page header<br/>
+Make the explanation text bolder<br/>
 **Solution 2**<br/>
-Make registration button in the login's box<br/>
+Move the explanation text from input box and make it as input box's name<br/>
 
 #### 2.4 Solution for Problems in Artifact 3
 **Solution 1**<br/>
+Make registration button on the page header<br/>
 **Solution 2**<br/>
+Make registration button in the login's box<br/>
 
 #### 2.5 Solution for Problems in Artifact 4
 **Solution 1**<br/>

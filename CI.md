@@ -242,46 +242,46 @@
 ### Artifact Models
 ---
 
-![artifact_0](/image/artifact_0.png)
+![artifact_0](image/artifact_0.png)
 
 ---
 
-![artifact_1](/image/artifact_1.png)
+![artifact_1](image/artifact_1.png)
 
 ---
 
-![artifact_2](/image/artifact_2.png)
+![artifact_2](image/artifact_2.png)
 
 ---
 
-![artifact_3](/image/artifact_3.png)
+![artifact_3](image/artifact_3.png)
 
 ---
 
-![artifact_4](/image/artifact_4.png)
+![artifact_4](image/artifact_4.png)
 
 ---
 
-![artifact_5](/image/artifact_5.png)
+![artifact_5](image/artifact_5.png)
 
 ---
 
-![artifact_6](/image/artifact_6.png)
+![artifact_6](image/artifact_6.png)
 
 ---
 
-![artifact_7](/image/artifact_7.png)
+![artifact_7](image/artifact_7.png)
 
 ---
 
-![artifact_8](/image/artifact_8.png)
+![artifact_8](image/artifact_8.png)
 
 ---
 
 ### Flow Model
 ---
 
-![flowmodel](/image/flowmodel.png)
+![flowmodel](image/flowmodel.png)
 
 ---
 
