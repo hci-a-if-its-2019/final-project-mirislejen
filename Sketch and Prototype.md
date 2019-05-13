@@ -27,10 +27,6 @@
 
 ---
 
-![sketch_7](image/sketch_7.png)
-
----
-
 ![sketch_8](image/sketch_8.png)
 
 ---
@@ -63,21 +59,23 @@ Make registration button in the login's box<br/>
 
 #### 2.5 Solution for Problems in Artifact 4
 **Solution 1**<br/>
-Show explanation text for every choice when the mouse hover over it<br/>
+Show explanation text for every choice when the mouse hover over it.<br/>
 **Solution 2**<br/>
-Show the explanation of choice when the choice has been clicked<br/>
+Show the explanation of choice when the choice has been clicked.<br/>
 
 #### 2.6 Solution for Problems in Artifact 5
 **Solution 1**<br/>
+Change "Nama" into "Nama Kategori, add an OK button to finalize user's input of "variasi". Remove field name "Daftar Variasi" and merge its content with "Informasi Variasi".<br/>
 **Solution 2**<br/>
+It is the same with Solution 1 with addition of "Hapus" button instead and cluster it with "OK" button.<br/>
 
 #### 2.7 Solution for Problems in Artifact 6
-**Solution 1**<br/>
-**Solution 2**<br/>
+**Solution**<br/>
+Make combo box for every part of address ("Provinsi", "Kabupaten/Kota", etc) and an additional "Jalan" to specify the address.<br/>
 
 #### 2.8 Solution for Problems in Artifact 8
-**Solution 1**<br/>
-**Solution 2**<br/>
+**Solution**<br/>
+Make border for both "Konfirmasi" and "Batal" button.<br/>
 
 ### 3. Selected Sketch
 -- under construction --
