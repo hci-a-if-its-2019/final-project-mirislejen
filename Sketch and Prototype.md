@@ -77,6 +77,8 @@ Make combo box for every part of address ("Provinsi", "Kabupaten/Kota", etc) and
 **Solution**<br/>
 Make border for both "Konfirmasi" and "Batal" button.<br/>
 
+**Note: Solution for Artifact 7 is functional and will not be provided in sketch**
+
 ### 3. Selected Sketch
 -- under construction --
 
