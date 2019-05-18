@@ -79,24 +79,33 @@ Make border for both "Konfirmasi" and "Batal" button.<br/>
 
 **Note: Solution for Artifact 7 is functional and will not be provided in sketch**
 
-### 3. Selected Sketch
--- under construction --
-
-### 4. Design Rationale
-The sketch and its selection are made by making oneself seeing the problem from the perspective without minding advanced techniques one know. Using this method, one will know what's wrong with the interface and what should one do to make it better.<br/><br/>
-
-For problems in Artifact 0, the main problem is the size of "Jual" font size, so it is mandatory to make it bigger. As for the unneeded keywords, it is sufficient just by removing the feature.
-
-For problems in Artifact 1 and 2, the explanation text problem can be solved by making it more contrast. The other problem, redundant way to close the login/register pop up, it is sufficient by disabling one method to close the pop up.<br/><br/>
-
-for problems in Artifact 3, it is enough to solve the problem by making a register button on the seller's login page.<br/><br/>
-
+### 3. Selected Sketch and Design Rationale
+**Artifact 1: Solution 2**<br/>
+Many famous websites, i.e. facebook, twitter, etc., place their important button on the upper right side of page. It makes many people tend to look for upper right page when they search for something.<br/>
+<br/>
+**Artifact 2: Solution 2**<br/>
+Even though Solution 1 is feasible, it is mostly used for devices with small screen (We limit our case to desktop version website).<br/>
+<br/>
+**Artifact 3: Solution 2**<br/>
+When someone new want to login into website, they always look for login part in page. It is better for user to immediately find register button/hyperlink when they looking for login (Solution 1 can be implemented if the owner of the website want to go for consistency).<br/>
+<br/>
+**Artifact 4: Solution 1**<br/>
+Using Solution 1, user can get the information of items faster than SOlution 2. In fact, Solution 2 may pose a problem for user that don't know the item explanation will be displayed after they click it.<br/> 
+<br/>
+**Artifact 5: Solution 2**<br/>
+Solution 2 is more preferred because it's easier for user to get to know possible actions that can be made when the features are clustered (Solution 1 "Hapus Variasi" button placed far from "Ok" button).<br/>
+<br/>
+**Artifact 6: Solution**<br/>
+It's mandatory for user to have control over information displayed. The original interface force the user to understand to choose "Provinsi" > "Kabupaten" > "Kecamatan" in succession. This solution breakdown the components so the user can understand faster how to fill the address without the need to click the button first.<br/> 
+<br/>
+**Artifact 8: Solution**<br/>
+User must be able to understand the warning they got, including the user's choice provided by system. It makes the distinction between choice have to be clear for user. Solution provided makes user able to differentiate the choice displayed to them easier.<br/>
+<br/>
 
 ## Part B: Assumptions
 ### 1. Hardware
 ```
 1. Computer with minimum requirement: Intel Dual-Core@2GHz Intel HD Graphic 2GB RAM
-or Android Lolipop 1GB RAM
 2. Screen size: 15.6 inch
 3. Screen resolution: higher than or equal to 960x720 and ratio 4:3
 4. Using physical buttons or touch screen
@@ -104,7 +113,7 @@ or Android Lolipop 1GB RAM
 
 ### 2. Users
 ```
-1. Familiar with using computer/android and web browser
+1. Familiar with using computer and web browser
 2. The users' age are 16-25 years old
 3. User never use Shopee
 ```
