@@ -41,6 +41,27 @@
             color: black;
             text-decoration: none;
       }
+      div#confirmbox{
+          top: 150px;
+          width: 70vw;
+          /* position: absolute; */
+          position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 40vw;
+            background-color: white;
+      }
+      .overlay{
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(241, 91, 43, 0.7);
+            overflow: hidden;
+            transition: 0.5s;
+      }
   </style>
 </head>
 <body>
@@ -60,25 +81,25 @@
                         <tr width='500px'>
                               <td>GO-SEND</td>
                               <td style="border: 1px solid gray; width: 50px;">
-                                    <input type='checkbox'>
+                                    <input id='GO-SEND' onchange='confirm("GO-SEND")' type='checkbox'>
                               </td>
                         </tr>
                         <tr width='500px'>
                               <td>J&T Express</td>
                               <td style="border: 1px solid gray; width: 50px;">
-                                    <input type='checkbox' checked>
+                                    <input id='JT-EXPRESS' onchange='confirm("JT-EXPRESS")' type='checkbox' checked>
                               </td>
                         </tr>
                         <tr width='500px'>
                               <td>JNE REG</td>
                               <td style="border: 1px solid gray; width: 50px;">
-                                    <input type='checkbox' checked>
+                                    <input id='JNE-REG' onchange='confirm("JNE-REG")' type='checkbox' checked>
                               </td>
                         </tr>
                         <tr width='500px'>
                               <td>Pos Kilat Khusus</td>
                               <td style="border: 1px solid gray; width: 50px;">
-                                    <input type='checkbox'>
+                                    <input id='POS-KILAT-KHUSUS' onchange='confirm("POS-KILAT-KHUSUS")' type='checkbox'>
                               </td>
                         </tr>
                   </table>
@@ -107,5 +128,40 @@
           <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Ubah Password</a></td></tr>
       </table>
       
+      <div id='confirmoverlay' class='overlay'>
+            <center>
+                  <div id='confirmbox'>
+                        <h3>Yakin?</h3>
+                        <br/>
+                        <button onclick="toggleoverlay('confirmoverlay');" style='display: inline-flex'>Batal</button>
+                        <button onclick="confirmclick(1);" style='display: inline-flex'>Ok</button>
+                        <br/><br/>
+                  </div>
+            </center>
+      </div>
+
 </body>
+<script>
+      "use strict";
+      var deliveryname;
+      function toggleoverlay(overlayscreen){
+            var ele = document.getElementById(overlayscreen);
+            if(ele.style.height == 0 || ele.style.height == '0px'){
+                  ele.style.height = '100%';
+            } else {
+                  ele.style.height = '0';
+            }
+            // console.log(ele.innerHTML);
+      }
+
+      function confirmclick(opt){
+            document.getElementById(deliveryname).checked ^= 1;
+            toggleoverlay('confirmoverlay');
+      }
+
+      function confirm(id){
+            toggleoverlay('confirmoverlay');
+            deliveryname = id;
+      }
+</script>
 </html>
