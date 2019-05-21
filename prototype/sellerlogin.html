@@ -2,17 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0"
-        name="viewport">
-  <meta content="ie=edge"
-        http-equiv="X-UA-Compatible">
-  <title>Shopee: Index</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Shopee: Login</title>
   <style>
       #header{
             position: fixed;
             top: 0; left: 0; right: 0;
-            background-color: rgb(241, 88, 44);
-            border: 1px solid rgb(241, 88, 44);
+            background-color: rgb(241, 91, 43);
+            border: 1px solid rgb(241, 91, 43);
             width: 100vw;
             height: 50px;
       }
@@ -29,6 +27,17 @@
           width: 50vw;
           /* position: absolute; */
       }
+      .overlay{
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(241, 91, 43, 0.7);
+            overflow: hidden;
+            transition: 0.5s;
+      }
       div#loginbox form{
             position: relative;
             padding-top: 20px;
@@ -37,41 +46,67 @@
             height: 200px;
             background-color: white;
       }
+      div#registerbox form{
+            position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 400px;
+            height: 200px;
+            background-color: white;
+      }
+      a.misc:hover{
+            transform: scale(1.25, 1.25);
+            text-decoration-line: underline;
+      }
   </style>
 </head>
 <body>
-  <div id="header"><a href='index.html'><button class="upper-right">Beli</button></a> <img src="images/shopeesellerlogo.png"
-       style="position: absolute; top: 0px; left: 30px;"></div><br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <center>
-    <img src='images/shopee.png'
-            width='100px'>
-    <div id='loginbox'>
-      <form action="sellerhome.html"
-            method="post">
-        <p style="position: absolute; left: 50px; display: inline;">Username</p><input class='logininput'
-              style="position: absolute; right: 50px; display: inline;"
-              type="text"><br>
-        <br>
-        <p style="position: absolute; left: 50px; display: inline;">Password</p><input class='logininput'
-              style="position: absolute; right: 50px; display: inline;"
-              type="text"><br>
-        <br>
-        <br>
-        <button type="submit">Login</button><br>
-        <br>
-        <a href=''
-              style='position: absolute; right: 10px;'>Lupa Password</a><br>
-        <a href=''
-              id='daftarhelp'
-              style='position: absolute; right: 10px;'>Daftar</a>
-      </form>
-    </div>
-  </center>
+      <div id="header">
+            <a href='index.html'><button class="upper-right">Beli</button></a>
+            <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <center>
+      <img src='images/shopee.png' width='100px'>
+      <div id='loginbox'>      
+            <form action="sellerhome.html" method="post">
+                  <p style="position: absolute; left: 50px; display: inline;">Username</p>
+                  <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
+                  <p style="position: absolute; left: 50px; display: inline;">Password</p>
+                  <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
+                  <button type="submit">Login</button><br/><br/>
+                  <a class='misc' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
+                  <a class='misc' style='position: absolute; right: 10px;' onclick="toggleoverlay('registeroverlay')" id='daftarhelp'>Daftar</a>
+            </form>
+            
+      </div>
+      </center>
+      <div id='registeroverlay' class='overlay'>
+            <button class="upper-right" onclick="toggleoverlay('registeroverlay')">Close</button>
+            <center>
+                  <div id='registerbox'>
+                        <form action="sellerhome.html" method="post">
+                              <h3>DAFTAR</h3>  
+                              <p style="position: absolute; left: 50px; display: inline;">Username</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Password</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
+                              <button type="submit">Daftar</button><br/><br/>
+                        </form>
+                        
+                  </div>
+            </center>
+      </div>
 </body>
+<script>
+      function toggleoverlay(overlayscreen){
+            ele = document.getElementById(overlayscreen);
+            if(ele.style.height == 0 || ele.style.height == '0px'){
+                  ele.style.height = '100%';
+            } else {
+                  ele.style.height = '0';
+            }
+            console.log(ele.style.height);
+      }
+</script>
 </html>

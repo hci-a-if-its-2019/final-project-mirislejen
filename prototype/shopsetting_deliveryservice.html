@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Shopee: Home</title>
+  <style>
+      #header{
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background-color: rgb(241, 91, 43);
+            border: 1px solid rgb(241, 91, 43);
+            width: 100vw;
+            height: 50px;
+      }
+      img.feature{
+            display: inline-flex;
+      }
+      img.feature:hover{
+            transform: scale(1.15, 1.15);
+      }
+      table, td, tr{
+          padding: 5px;
+          border-collapse: collapse;
+          border-bottom: 1px solid rgb(163, 163, 163);
+      }
+      .selectedposition{
+        background-color: rgb(179, 179, 179);
+      }
+      tr > td{
+          width: 210px;
+      }
+      .sidebaritem:hover{
+        background-color: rgb(179, 179, 179);
+      }
+      .shopsettingpage{
+          width: calc(100vw - 210px);
+      }
+      td>a{
+            color: black;
+            text-decoration: none;
+      }
+  </style>
+</head>
+<body>
+      <div id="header">
+            <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+      </div>
+      
+      <br/><br/><br/>
+      <a href="sellerhome.html"><button style="padding: 10px; margin-bottom: 8px;"><b>Kembali</b></button></a>
+      <br/>
+      <table id='sidebar'>
+          <tr>
+              <td style="background-color: rgb(241, 91, 43); border: none;"><center><h3 style='display: inline;'>Toko</h3></center></td>
+              <td class='shopsettingpage' rowspan="100" style="border: none;">
+                <center><img src='images/profil.png'></center>
+              </td>
+          </tr>
+          <tr><td><a href='shopsetting_profile.html'>Profil Toko</a></td></tr>
+          <tr><td class='sidebaritem selectedposition'>Jasa Kirim</td></tr>
+          <tr><td class='sidebaritem'><a href='shopsetting_address.html'>Alamat Saya</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Dari Pembeli</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Performa Toko</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Sistem Poin Penalti</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Laporan Saya</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Kartu / Rekening Bank</a></td></tr>
+          <tr>
+                <td style="background-color: rgb(241, 91, 43); border: none;"><center><h3 style='display: inline;'>Pengaturan</h3></center></td>
+          </tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Pengaturan Toko</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Pengaturan Privasi</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Pengaturan Chat</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Pengaturan Notifikasi</a></td></tr>
+          <tr>
+                <td style="background-color: rgb(241, 91, 43); border: none;"><center><h3 style='display: inline;'>Akun</h3></center></td>
+          </tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Akun Saya</a></td></tr>
+          <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Ubah Password</a></td></tr>
+      </table>
+      
+</body>
+</html>

@@ -2,44 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0"
-        name="viewport">
-  <meta content="ie=edge"
-        http-equiv="X-UA-Compatible">
-  <title>Shopee: Index</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Shopee: Home</title>
   <style>
       #header{
             position: fixed;
             top: 0; left: 0; right: 0;
-            background-color: rgb(241, 88, 44);
-            border: 1px solid rgb(241, 88, 44);
+            background-color: rgb(241, 91, 43);
+            border: 1px solid rgb(241, 91, 43);
             width: 100vw;
             height: 50px;
       }
-      .class{
-            display: inline-flexbox;
+      img.feature{
+            display: inline-flex;
+      }
+      img.feature:hover{
+            transform: scale(1.15, 1.15);
       }
   </style>
 </head>
 <body>
-  <div id="header"><img src="images/shopeesellerlogo.png"
-       style="position: absolute; top: 0px; left: 30px;"></div><br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <center>
-      <div id='itemlist'>
-          <img class='item' src='images/item_produk.png'>
-          <img class='item' src='images/item_kategoritoko.png'>
-          <img class='item' src='images/item_penjualan.png'>
-          <img class='item' src='images/item_promosi.png'>
-          <img class='item' src='images/item_produk.png'>
-          <img class='item' src='images/item_penghasilan.png'>
-          <img class='item' src='images/item_saldopenjual.png'>
-          <img class='item' src='images/item_pengaturantoko.png'>
+      <div id="header">
+            <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <center>
+      <div id='itemlist'>      
+            <a href='productlist.html'><img class='feature' src='images/item_produk.png'></a>
+            <a onclick="alert('Sorry, this feature/page not implemented by developer');"><img class='feature' src='images/item_kategoritoko.png'></a>
+            <a onclick="alert('Sorry, this feature/page not implemented by developer');"><img class='feature' src='images/item_penjualan.png'></a>
+            <a onclick="alert('Sorry, this feature/page not implemented by developer');"><img class='feature' src='images/item_promosi.png'></a>
+            <a onclick="alert('Sorry, this feature/page not implemented by developer');"><img class='feature' src='images/item_penghasilan.png'></a>
+            <a onclick="alert('Sorry, this feature/page not implemented by developer');"><img class='feature' src='images/item_saldopenjual.png'></a>
+            <a href='shopsetting_profile.html'><img class='feature' src='images/item_pengaturantoko.png'></a>
       </div>
   </center>
 </body>
