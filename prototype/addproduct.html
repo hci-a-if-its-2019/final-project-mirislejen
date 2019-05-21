@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Shopee: Index</title>
+  <style>
+      #header{
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background-color: rgb(241, 91, 43);
+            border: 1px solid rgb(241, 91, 43);
+            width: 100vw;
+            height: 50px;
+      }
+      .mandatory::before{
+          content: "* ";
+      }
+      .category{
+          border: 2px solid gray;
+      }
+      td.itemcategory{
+          width: 30vw;
+      }
+      input{
+          width: 30vw;
+      }
+      #footer{
+          position: fixed;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border-top: 2px solid gray;
+          background-color: rgb(241, 91, 43);
+          height: 50px;
+      }
+      button.bottom-right{
+            position: relative;
+            left: calc(100vw - 630px);
+            top: 5px;
+            width: 200px;
+            font-size: 15px;
+            display: inline-flexbox;
+      }
+  </style>
+</head>
+<body>
+      <div id="header">
+            <img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;">
+      </div>
+      <br/><br/><br/>
+      <fieldset class='category'>      
+            <legend><h3>Informasi Produk</h3></legend>
+            <table>
+                <tr>
+                    <td class='mandatory itemcategory'>Nama Produk</td>
+                    <td><input type="text" name='namaproduk'></td>
+                </tr>
+                <tr>
+                    <td class='mandatory itemcategory'>Deskripsi Produk</td>
+                    <td><input type="text" name='deskripsiproduk'></td>
+                </tr>
+                <tr>
+                    <td class='mandatory itemcategory'>Merek</td>
+                    <td><input type="text" name='merk'></td>
+                </tr>
+                <tr>
+                    <td class='itemcategory'>Asal Produk</td>
+                    <td><input type="text" name='asalproduk'></td>
+                </tr>
+                <tr>
+                    <td class='mandatory itemcategory'>Bahan</td>
+                    <td><input type="text" name='bahan'></td>
+                </tr>
+                <tr>
+                    <td class='itemcategory'>Style</td>
+                    <td><input type="text" name='style'></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset class='category'>      
+            <legend><h3>Informasi Penjualan</h3></legend>
+            <table>
+                <tr>
+                    <td class='mandatory itemcategory'>Harga</td>
+                    <td><input type="text" name='harga'></td>
+                </tr>
+                <tr>
+                    <td class='mandatory itemcategory'>Stok</td>
+                    <td><input type="text" name='stok'></td>
+                </tr>
+                <tr>
+                    <td class='itemcategory'>Variasi</td>
+                    <td><input type="text" name='variasi'></td>
+                </tr>
+                <tr>
+                    <td class='itemcategory'>Grosir</td>
+                    <td><input type="text" name='grosir'></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset class='category'>      
+            <legend><h3>Pengaturan Media</h3></legend>
+            <table>
+                <tr>
+                    <td class='mandatory itemcategory'>Foto Produk</td>
+                    <td>Not implemented. No need to fill it.</td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset class='category'>      
+            <legend><h3>Pengiriman</h3></legend>
+            <table>
+                <tr>
+                    <td class='mandatory itemcategory'>Berat</td>
+                    <td><input type="text" name='berat'></td>
+                </tr>
+                <tr>
+                    <td class='itemcategory'>Ukuran Paket</td>
+                    <td>
+                        <input style='width: calc(26vw/3);' type="text" name='lebar'>
+                        <input style='width: calc(26vw/3);' type="text" name='panjang'>
+                        <input style='width: calc(26vw/3);' type="text" name='tinggi'>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='itemcategory'>Jasa Pengiriman</td>
+                    <td><input type="text" name='jasapengiriman'></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset class='category'>      
+                <legend><h3>Lainnya</h3></legend>
+                <table>
+                    <tr>
+                        <td class='mandatory itemcategory'>Kondisi</td>
+                        <td><input type="text" name='kondisi'></td>
+                    </tr>
+                    <tr>
+                        <td class='itemcategory'>SKU Induk</td>
+                        <td><input type="text" name='skuinduk'></td>
+                    </tr>
+                </table>
+            </fieldset>
+        <br/><br/><br/>
+        <div id='footer'>
+            <button class="bottom-right">Batal</button>
+            <button class="bottom-right">Simpan & Arsipkan</button>
+            <button class="bottom-right">Simpan & Tampilkan</button>
+        </div>
+</body>
+</html>

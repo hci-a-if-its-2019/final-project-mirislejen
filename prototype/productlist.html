@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Shopee: Index</title>
+  <style>
+      #header{
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background-color: rgb(241, 91, 43);
+            border: 1px solid rgb(241, 91, 43);
+            width: 100vw;
+            height: 50px;
+      }
+      table#listproduct, th, td{
+          border: 1px solid black;
+          border-collapse: collapse;
+      }
+  </style>
+</head>
+<body>
+      <div id="header">
+            <img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;">
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <a href="addproduct.html"><button style="background-color: rgb(241, 91, 43); padding: 10px; position: absolute; right: 10px;"><b>+ Tambah Produk</b></button></a>
+      <br/><br/><br/><br/>
+      <table id='listproduct' width='100%'>
+          <tr>
+              <th>Nama Produk</th>
+              <th>SKU Induk</th>
+              <th>SKU</th>
+              <th>Variasi</th>
+              <th>Harga</th>
+              <th>Stok</th>
+              <th>Penjualan</th>
+              <th>Status</th>
+          </tr>
+      </table>
+</body>
+</html>
