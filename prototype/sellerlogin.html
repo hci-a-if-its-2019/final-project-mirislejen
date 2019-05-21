@@ -27,6 +27,17 @@
           width: 50vw;
           /* position: absolute; */
       }
+      .overlay{
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(241, 91, 43, 0.7);
+            overflow: hidden;
+            transition: 0.5s;
+      }
       div#loginbox form{
             position: relative;
             padding-top: 20px;
@@ -34,6 +45,18 @@
             width: 400px;
             height: 200px;
             background-color: white;
+      }
+      div#registerbox form{
+            position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 400px;
+            height: 200px;
+            background-color: white;
+      }
+      a.misc:hover{
+            transform: scale(1.25, 1.25);
+            text-decoration-line: underline;
       }
   </style>
 </head>
@@ -52,11 +75,38 @@
                   <p style="position: absolute; left: 50px; display: inline;">Password</p>
                   <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
                   <button type="submit">Login</button><br/><br/>
-                  <a style='position: absolute; right: 10px;' href=''>Lupa Password</a><br/>
-                  <a style='position: absolute; right: 10px;' href='' id='daftarhelp'>Daftar</a>
+                  <a class='misc' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
+                  <a class='misc' style='position: absolute; right: 10px;' onclick="toggleoverlay('registeroverlay')" id='daftarhelp'>Daftar</a>
             </form>
             
       </div>
       </center>
+      <div id='registeroverlay' class='overlay'>
+            <button class="upper-right" onclick="toggleoverlay('registeroverlay')">Close</button>
+            <center>
+                  <div id='registerbox'>
+                        <form action="sellerhome.html" method="post">
+                              <h3>DAFTAR</h3>  
+                              <p style="position: absolute; left: 50px; display: inline;">Username</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Password</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
+                              <button type="submit">Daftar</button><br/><br/>
+                        </form>
+                        
+                  </div>
+            </center>
+      </div>
 </body>
+<script>
+      function toggleoverlay(overlayscreen){
+            ele = document.getElementById(overlayscreen);
+            if(ele.style.height == 0 || ele.style.height == '0px'){
+                  ele.style.height = '100%';
+            } else {
+                  ele.style.height = '0';
+            }
+            console.log(ele.style.height);
+      }
+</script>
 </html>

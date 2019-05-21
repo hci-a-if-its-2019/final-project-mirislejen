@@ -28,13 +28,44 @@
             width: 50vw;
             height: 40px;
       }
+      .overlay{
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(241, 91, 43, 0.7);
+            overflow: hidden;
+            transition: 0.5s;
+      }
+      div#loginbox form{
+            position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 400px;
+            height: 240px;
+            background-color: white;
+      }
+      div#registerbox form{
+            position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 400px;
+            height: 200px;
+            background-color: white;
+      }
+      a.misc:hover{
+            transform: scale(1.25, 1.25);
+            text-decoration-line: underline;
+      }
   </style>
 </head>
 <body>
       <div id="header">
             <a href='sellerlogin.html'><button class="upper-right">Jual</button></a>
-            <button class="upper-right">Login</button>
-            <button class="upper-right">Daftar</button><br/><br/>
+            <button class="upper-right" onclick="toggleoverlay('loginoverlay')">Login</button>
+            <button class="upper-right" onclick="toggleoverlay('registeroverlay')">Daftar</button><br/><br/>
             <div style='position: absolute; left: 50px; top: 10px;'>
                   <img src="images/shopeewhite.png" width='250px'>
             </div>
@@ -46,7 +77,52 @@
             </div>
       </div>
       <img src='images/indexfiller.png' width="device-width" style="position: absolute; top: 110px;">
-      
-      <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a <br/>a
+    
+      <div id='loginoverlay' class='overlay'>
+            <button class="upper-right" onclick="toggleoverlay('loginoverlay')">Close</button>
+            <center>
+                  <div id='loginbox'>      
+                        <form action="sellerhome.html" method="post">
+                              <h3>LOGIN</h3> 
+                              <p style="position: absolute; left: 50px; display: inline;">Username</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Password</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
+                              <button type="submit">Login</button><br/><br/>
+                              <a class='misc' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
+                        </form>
+                        
+                  </div>
+            </center>
+      </div>
+
+      <div id='registeroverlay' class='overlay'>
+            <button class="upper-right" onclick="toggleoverlay('registeroverlay')">Close</button>
+            <center>
+                  <div id='registerbox'>
+                        <form action="sellerhome.html" method="post">
+                              <h3>DAFTAR</h3>  
+                              <p style="position: absolute; left: 50px; display: inline;">Username</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Password</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
+                              <button type="submit">Daftar</button><br/><br/>
+                        </form>
+                        
+                  </div>
+            </center>
+      </div>
+
 </body>
+<script>
+      function toggleoverlay(overlayscreen){
+            ele = document.getElementById(overlayscreen);
+            if(ele.style.height == 0 || ele.style.height == '0px'){
+                  ele.style.height = '100%';
+            } else {
+                  ele.style.height = '0';
+            }
+            console.log(ele.style.height);
+      }
+</script>
 </html>
