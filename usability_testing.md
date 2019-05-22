@@ -78,3 +78,19 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: None.  
  - **Reason**: Button is located at the top most page, and somehow small, making it quite hard to notice.
  - **Resolution**: We have not provided any solutions yet to this problem.
+ 
+### Observation #2
+![Kabupaten and Kota on Alamat Saya Problem](image/observation_2.png)
+ - **Reference**: Transcript #2 Line number 18.
+ - **Feedback**: Negative feedback.  
+ - **Incidence**: Participant was confused by "Kota" and "Kabupaten" input.  
+ - **Reason**: "Kabupaten" and "Kota" is hierarchically similar term
+ - **Resolution**: -
+ 
+ ### Observation #3
+![Autocomplete on Alamat Saya Problem](image/observation_2.png)
+ - **Reference**: Transcript #2 Line number 18.
+ - **Feedback**: Negative feedback.  
+ - **Incidence**: None.  
+ - **Reason**: In the real scenarion, the options to be selected are plenty, autocomplete helps.
+ - **Resolution**: We'll add autocomplete for the dropdowns
