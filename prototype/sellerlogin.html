@@ -74,8 +74,8 @@
                   <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
                   <p style="position: absolute; left: 50px; display: inline;">Password</p>
                   <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
-                  <button type="submit">Login</button><br/><br/>
-                  <a class='misc' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
+                  <button onclick='redirection()' type="submit">Login</button><br/><br/>
+                  <a onclick='gg()' class='misc' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
                   <a class='misc' style='position: absolute; right: 10px;' onclick="toggleoverlay('registeroverlay')" id='daftarhelp'>Daftar</a>
             </form>
             
@@ -91,7 +91,7 @@
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Password</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
-                              <button type="submit">Daftar</button><br/><br/>
+                              <button onclick='redirection()'type="submit">Daftar</button><br/><br/>
                         </form>
                         
                   </div>
@@ -107,6 +107,12 @@
                   ele.style.height = '0';
             }
             console.log(ele.style.height);
+      }
+      function redirection(){
+            alert("In this testing, we only provide simulation mainly for seller page.\nAny Login / Register in this page will redirect you to seller page.")
+      }
+      function gg(){
+            alert("Not Implemented by developer.");
       }
 </script>
 </html>

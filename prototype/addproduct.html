@@ -59,12 +59,22 @@
       .showtips:hover .tooltips{
           visibility: visible;
       }
+      #logoutbutton{
+            position: relative;
+            left: calc(100vw - 110px);
+            width: 80px;
+            top: 8px;
+            padding-right: 5px;
+            font-size: 15px;
+            display: inline-flexbox;
+      }
   </style>
 </head>
 <body>
       <div id="header">
             <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
-      </div>
+            <a href='sellerlogin.html'><button id='logoutbutton'><b>Logout</b></button>
+        </div>
       <br/><br/><br/>
       <fieldset class='category'>      
             <legend><h3>Informasi Produk</h3></legend>
@@ -172,8 +182,13 @@
         <br/><br/><br/>
         <div id='footer'>
             <a href='productlist.html'><button class="bottom-right">Batal</button></a>
-            <a href='productlist.html'><button class="bottom-right">Simpan & Arsipkan</button></a>
-            <a href='productlist.html'><button class="bottom-right">Simpan & Tampilkan</button></a>
+            <a href='productlist.html'><button onclick='simpanalert()' class="bottom-right">Simpan & Arsipkan</button></a>
+            <a href='productlist.html'><button onclick='simpanalert()' class="bottom-right">Simpan & Tampilkan</button></a>
         </div>
 </body>
+<script>
+    function simpanalert(){
+        alert("This is only a simulation and no data will be saved. (You won't see your data in product list).")
+    }
+</script>
 </html>

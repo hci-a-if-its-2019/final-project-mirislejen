@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <title>Shopee: Home</title>
+  <title>Shopee: Shop Address</title>
   <style>
       #header{
             position: fixed;
@@ -73,11 +73,21 @@
             font-size: 15px;
             display: inline-flexbox;
       }
+      #logoutbutton{
+            position: relative;
+            left: calc(100vw - 110px);
+            width: 80px;
+            top: 8px;
+            padding-right: 5px;
+            font-size: 15px;
+            display: inline-flexbox;
+      }
   </style>
 </head>
 <body>
       <div id="header">
             <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+            <a href='sellerlogin.html'><button id='logoutbutton'><b>Logout</b></button>
       </div>
       
       <br/><br/><br/>
@@ -151,7 +161,7 @@
                               <p style="position: absolute; left: 50px; display: inline;">Nama Jalan</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/>
                               <br/>
-                              <button type="submit">Tambah</button><br/><br/>
+                              <button onclick='simpanalert()' type="submit">Tambah</button><br/><br/>
                         </form>
                         
                   </div>
@@ -169,5 +179,8 @@
             }
             console.log(ele.innerHTML);
       }
+      function simpanalert(){
+        alert("This is only a simulation and no data will be saved. (You won't see your data in product list).")
+    }
 </script>
 </html>
