@@ -174,7 +174,7 @@ The tasks are remain unchanged. Below are the tasks:
  - **Resolution**: We'll delete it
  
  ### Observation #6
-![Save Button on Jasa Kirim Problem](image/observation_2.png)
+![Save Button on Jasa Kirim Problem](image/observation_5.png)
  - **Reference**: Transcript #2 Line number 22.
  - **Feedback**: Neutral feedback.  
  - **Incidence**: None.  
