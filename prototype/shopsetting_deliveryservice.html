@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <title>Shopee: Home</title>
+  <title>Shopee: Delivery Service</title>
   <style>
       #header{
             position: fixed;
@@ -41,11 +41,42 @@
             color: black;
             text-decoration: none;
       }
+      div#confirmbox{
+          top: 150px;
+          width: 70vw;
+          /* position: absolute; */
+          position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 40vw;
+            background-color: white;
+      }
+      .overlay{
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(241, 91, 43, 0.7);
+            overflow: hidden;
+            transition: 0.5s;
+      }
+      #logoutbutton{
+            position: relative;
+            left: calc(100vw - 110px);
+            width: 80px;
+            top: 8px;
+            padding-right: 5px;
+            font-size: 15px;
+            display: inline-flexbox;
+      }
   </style>
 </head>
 <body>
       <div id="header">
-            <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+            <a href='sellerhome.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+            <a href='sellerlogin.html'><button id='logoutbutton'><b>Logout</b></button></a>
       </div>
       
       <br/><br/><br/>
@@ -55,7 +86,34 @@
           <tr>
               <td style="background-color: rgb(241, 91, 43); border: none;"><center><h3 style='display: inline;'>Toko</h3></center></td>
               <td class='shopsettingpage' rowspan="100" style="border: none;">
-                <center><img src='images/profil.png'></center>
+                <center>
+                  <table style="border: 1px solid gray;">
+                        <tr width='500px'>
+                              <td>GO-SEND</td>
+                              <td style="border: 1px solid gray; width: 50px;">
+                                    <input id='GO-SEND' onchange='confirm("GO-SEND")' type='checkbox'>
+                              </td>
+                        </tr>
+                        <tr width='500px'>
+                              <td>J&T Express</td>
+                              <td style="border: 1px solid gray; width: 50px;">
+                                    <input id='JT-EXPRESS' onchange='confirm("JT-EXPRESS")' type='checkbox' checked>
+                              </td>
+                        </tr>
+                        <tr width='500px'>
+                              <td>JNE REG</td>
+                              <td style="border: 1px solid gray; width: 50px;">
+                                    <input id='JNE-REG' onchange='confirm("JNE-REG")' type='checkbox' checked>
+                              </td>
+                        </tr>
+                        <tr width='500px'>
+                              <td>Pos Kilat Khusus</td>
+                              <td style="border: 1px solid gray; width: 50px;">
+                                    <input id='POS-KILAT-KHUSUS' onchange='confirm("POS-KILAT-KHUSUS")' type='checkbox'>
+                              </td>
+                        </tr>
+                  </table>
+                </center>
               </td>
           </tr>
           <tr><td><a href='shopsetting_profile.html'>Profil Toko</a></td></tr>
@@ -80,5 +138,41 @@
           <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Ubah Password</a></td></tr>
       </table>
       
+      <div id='confirmoverlay' class='overlay'>
+            <center>
+                  <div id='confirmbox'>
+                        <h3>Yakin?</h3>
+                        <br/>
+                        <button onclick="cancelclick()" style='display: inline-flex'>Batal</button>
+                        <button onclick="toggleoverlay('confirmoverlay');" style='display: inline-flex'>Ok</button>
+                        <br/><br/>
+                  </div>
+            </center>
+      </div>
+
 </body>
+<script>
+      "use strict";
+      var deliveryname;
+      function toggleoverlay(overlayscreen){
+            var ele = document.getElementById(overlayscreen);
+            if(ele.style.height == 0 || ele.style.height == '0px'){
+                  ele.style.height = '100%';
+            } else {
+                  ele.style.height = '0';
+            }
+            // console.log(ele.innerHTML);
+      }
+
+      function cancelclick(){
+            document.getElementById(deliveryname).checked ^= 1;
+            // alert("You will see the checkbox remain unchanged.\n\nThe main point in this task is your ability to perceive 'Batal' and 'OK' as button.")
+            toggleoverlay('confirmoverlay');
+      }
+
+      function confirm(id){
+            toggleoverlay('confirmoverlay');
+            deliveryname = id;
+      }
+</script>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <title>Shopee: Home</title>
+  <title>Shopee: Shop Address</title>
   <style>
       #header{
             position: fixed;
@@ -41,21 +41,68 @@
             color: black;
             text-decoration: none;
       }
+      div#addressbox{
+          top: 150px;
+          width: 70vw;
+          /* position: absolute; */
+      }
+      div#addressbox form{
+            position: relative;
+            padding-top: 20px;
+            border: 2px solid gray;
+            width: 40vw;
+            /* height: 400px; */
+            background-color: white;
+      }
+      .overlay{
+            height: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(241, 91, 43, 0.7);
+            overflow: hidden;
+            transition: 0.5s;
+      }
+      button.upper-right{
+            position: absolute;
+            right: 10px;
+            top: 8px;
+            width: 80px;
+            font-size: 15px;
+            display: inline-flexbox;
+      }
+      #logoutbutton{
+            position: relative;
+            left: calc(100vw - 110px);
+            width: 80px;
+            top: 8px;
+            padding-right: 5px;
+            font-size: 15px;
+            display: inline-flexbox;
+      }
   </style>
 </head>
 <body>
       <div id="header">
-            <a href='sellerlogin.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+            <a href='sellerhome.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
+            <a href='sellerlogin.html'><button id='logoutbutton'><b>Logout</b></button></a>
       </div>
       
       <br/><br/><br/>
       <a href="sellerhome.html"><button style="padding: 10px; margin-bottom: 8px;"><b>Kembali</b></button></a>
+      <button style="padding: 10px; margin-bottom: 8px; position: relative; left: 70vw;" onclick="toggleoverlay('addressoverlay')"><b>+ Tambah Alamat</b></button>
       <br/>
+      
       <table id='sidebar'>
           <tr>
               <td style="background-color: rgb(241, 91, 43); border: none;"><center><h3 style='display: inline;'>Toko</h3></center></td>
               <td class='shopsettingpage' rowspan="100" style="border: none;">
-                <center><img src='images/profil.png'></center>
+                  
+                  <div id='addresslist'>
+                        
+                  </div>
               </td>
           </tr>
           <tr><td><a href='shopsetting_profile.html'>Profil Toko</a></td></tr>
@@ -80,5 +127,60 @@
           <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Ubah Password</a></td></tr>
       </table>
       
+      <div id='addressoverlay' class='overlay'>
+            <button class="upper-right" onclick="toggleoverlay('addressoverlay')">Close</button>
+            <center>
+                  <div id='addressbox'>
+                        <form action="" method="post">
+                              <h3>ALAMAT BARU</h3>  
+                              <p style="position: absolute; left: 50px; display: inline;">Nama Alamat Baru</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">No. Telepon</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Provinsi</p>
+                              <!-- <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/> -->
+                              <select style="position: absolute; right: 50px; display: inline; width: 16vw;">
+                                    <option>Provinsi 1</option>
+                                    <option>Provinsi 2</option>
+                              </select>
+                              <br/><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Kabupaten</p>
+                              <!-- <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/> -->
+                              <select style="position: absolute; right: 50px; display: inline; width: 16vw;">
+                                    <option>Kabupaten 1</option>
+                                    <option>Kabupaten 2</option>
+                              </select>
+                              <br/><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Kota</p>
+                              <!-- <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/> -->
+                              <select style="position: absolute; right: 50px; display: inline; width: 16vw;">
+                                    <option>Kecamatan 1</option>
+                                    <option>Kecamatan 2</option>
+                              </select>
+                              <br/><br/><br/>
+                              <p style="position: absolute; left: 50px; display: inline;">Nama Jalan</p>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/>
+                              <br/>
+                              <button onclick='simpanalert()' type="submit">Tambah</button><br/><br/>
+                        </form>
+                        
+                  </div>
+            </center>
+      </div>
+
 </body>
+<script>
+      function toggleoverlay(overlayscreen){
+            ele = document.getElementById(overlayscreen);
+            if(ele.style.height == 0 || ele.style.height == '0px'){
+                  ele.style.height = '100%';
+            } else {
+                  ele.style.height = '0';
+            }
+            console.log(ele.innerHTML);
+      }
+      function simpanalert(){
+        alert("This is only a simulation and no data will be saved. (You won't see your data in product list).")
+    }
+</script>
 </html>
