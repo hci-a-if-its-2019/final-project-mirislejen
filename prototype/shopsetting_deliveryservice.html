@@ -76,7 +76,7 @@
 <body>
       <div id="header">
             <a href='sellerhome.html'><img src="images/shopeesellerlogo.png" style="position: absolute; top: 0px; left: 30px;"></a>
-            <a href='sellerlogin.html'><button id='logoutbutton'><b>Logout</b></button>
+            <a href='sellerlogin.html'><button id='logoutbutton'><b>Logout</b></button></a>
       </div>
       
       <br/><br/><br/>
@@ -143,8 +143,8 @@
                   <div id='confirmbox'>
                         <h3>Yakin?</h3>
                         <br/>
-                        <button onclick="toggleoverlay('confirmoverlay');" style='display: inline-flex'>Batal</button>
-                        <button onclick="confirmclick(1);" style='display: inline-flex'>Ok</button>
+                        <button onclick="cancelclick()" style='display: inline-flex'>Batal</button>
+                        <button onclick="toggleoverlay('confirmoverlay');" style='display: inline-flex'>Ok</button>
                         <br/><br/>
                   </div>
             </center>
@@ -164,8 +164,8 @@
             // console.log(ele.innerHTML);
       }
 
-      function confirmclick(opt){
-            // document.getElementById(deliveryname).checked ^= 1;
+      function cancelclick(){
+            document.getElementById(deliveryname).checked ^= 1;
             // alert("You will see the checkbox remain unchanged.\n\nThe main point in this task is your ability to perceive 'Batal' and 'OK' as button.")
             toggleoverlay('confirmoverlay');
       }
