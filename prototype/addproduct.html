@@ -93,11 +93,16 @@
                 </tr>
                 <tr>
                     <td class='itemcategory'>Asal Produk</td>
-                    <td><input type="text" name='asalproduk'></td>
+                    <td>
+                        <select>
+                            <option>Lokal</option>
+                            <option>Impor</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td class='mandatory itemcategory'>Bahan</td>
-                    <td><input type="text" name='bahan'></td>
+                    <td><input type="text" name='bahan' placeholder="Misal: katun"></td>
                 </tr>
                 <tr>
                     <td class='itemcategory'>Style</td>
@@ -106,7 +111,7 @@
                         <option class="showtips">Casual</option>
                         <option class='showtips'>Formal</option>
                     </select>
-                    <span class='tooltips'>Casual is a casual style<br/>Formal is a formal style</span>
+                    <span class='tooltips'># Casual is a casual style<br/><br/># Formal is a formal style</span>
                     </td>
                 </tr>
             </table>
@@ -116,7 +121,7 @@
             <legend><h3>Informasi Penjualan</h3></legend>
             <table>
                 <tr>
-                    <td class='mandatory itemcategory'>Harga</td>
+                    <td class='mandatory itemcategory'>Harga (Rp)</td>
                     <td><input type="text" name='harga'></td>
                 </tr>
                 <tr>
@@ -125,11 +130,7 @@
                 </tr>
                 <tr>
                     <td class='itemcategory'>Variasi</td>
-                    <td><input type="text" name='variasi'></td>
-                </tr>
-                <tr>
-                    <td class='itemcategory'>Grosir</td>
-                    <td><input type="text" name='grosir'></td>
+                    <td><input type="text" name='variasi' placeholder="Misal: warna=merah,biru"></td>
                 </tr>
             </table>
         </fieldset>
@@ -148,20 +149,47 @@
             <legend><h3>Pengiriman</h3></legend>
             <table>
                 <tr>
-                    <td class='mandatory itemcategory'>Berat</td>
+                    <td class='mandatory itemcategory'>Berat (gr)</td>
                     <td><input type="text" name='berat'></td>
                 </tr>
                 <tr>
-                    <td class='itemcategory'>Ukuran Paket</td>
+                    <td class='itemcategory'>Ukuran Paket (cm)</td>
                     <td>
-                        <input style='width: calc(26vw/3);' type="text" name='lebar'>
-                        <input style='width: calc(26vw/3);' type="text" name='panjang'>
-                        <input style='width: calc(26vw/3);' type="text" name='tinggi'>
+                        <input style='width: calc(26vw/3);' type="text" name='lebar' placeholder="lebar">
+                        <input style='width: calc(26vw/3);' type="text" name='panjang' placeholder="panjang">
+                        <input style='width: calc(26vw/3);' type="text" name='tinggi' placeholder="tinggi">
                     </td>
                 </tr>
                 <tr>
                     <td class='itemcategory'>Jasa Pengiriman</td>
-                    <td><input type="text" name='jasapengiriman'></td>
+                    <td>
+                        <table style="border: 1px solid gray;">
+                            <tr width='500px'>
+                                    <td>GO-SEND</td>
+                                    <td style="border: 1px solid gray; width: 50px;">
+                                        <input id='GO-SEND' type='checkbox'>
+                                    </td>
+                            </tr>
+                            <tr width='500px'>
+                                    <td>J&T Express</td>
+                                    <td style="border: 1px solid gray; width: 50px;">
+                                        <input id='JT-EXPRESS' type='checkbox' checked>
+                                    </td>
+                            </tr>
+                            <tr width='500px'>
+                                    <td>JNE REG</td>
+                                    <td style="border: 1px solid gray; width: 50px;">
+                                        <input id='JNE-REG' type='checkbox' checked>
+                                    </td>
+                            </tr>
+                            <tr width='500px'>
+                                    <td>Pos Kilat Khusus</td>
+                                    <td style="border: 1px solid gray; width: 50px;">
+                                        <input id='POS-KILAT-KHUSUS' type='checkbox'>
+                                    </td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
             </table>
         </fieldset>
@@ -171,7 +199,12 @@
                 <table>
                     <tr>
                         <td class='mandatory itemcategory'>Kondisi</td>
-                        <td><input type="text" name='kondisi'></td>
+                        <td>
+                            <select>
+                                <option>Baru</option>
+                                <option>Bekas</option>
+                            </select>
+                        </td>
                     </tr>
                     <tr>
                         <td class='itemcategory'>SKU Induk</td>
