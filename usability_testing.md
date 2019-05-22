@@ -134,3 +134,11 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: None.  
  - **Reason**: In the real scenario, the options to be selected are plenty, autocomplete helps.
  - **Resolution**: We'll add autocomplete for the dropdowns
+ 
+  ### Observation #5
+![observation3_problem](https://user-images.githubusercontent.com/33054425/58178022-9e743080-7ccf-11e9-9d36-0bd32cdfb47f.JPG)
+ - **Reference**: Transcript #3 number 23
+ - **Feedback**: Negative feedback  
+ - **Incidence**: -  
+ - **Reason**: Most of people know the meaning of most 'style' words/category, so dont add more explanation
+ - **Resolution**: We'll delete it
