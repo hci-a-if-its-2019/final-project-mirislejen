@@ -101,6 +101,7 @@ The tasks are remain unchanged. Below are the tasks:
 
 
 ## Observations
+
 ### Observation #1
 !["Jual" Button Problem](image/observation_1.png)
  - **Reference**: Transcript #2 Line number 8-10.
@@ -108,3 +109,12 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: None.  
  - **Reason**: Button is located at the top most page, and somehow small, making it quite hard to notice.
  - **Resolution**: We have not provided any solutions yet to this problem.
+ 
+ ### Observation #2
+![observation2_problem](https://user-images.githubusercontent.com/33054425/58177263-425cdc80-7cce-11e9-9299-21c9d7d208d2.JPG)
+![observation4_problem](https://user-images.githubusercontent.com/33054425/58177320-5bfe2400-7cce-11e9-8cd4-849ebb37239f.JPG)
+ - **Reference**: Transcript #3 number 8,12,29.
+ - **Feedback**: Negative feedback 
+ - **Incidence**: -  
+ - **Reason**: Button is located outside of form, maybe you can put it in the form
+ - **Resolution**: Maybe we can add 'x' sign on the right corner
