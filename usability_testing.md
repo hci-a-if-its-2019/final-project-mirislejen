@@ -118,3 +118,19 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: -  
  - **Reason**: Button is located outside of form, maybe you can put it in the form
  - **Resolution**: Maybe we can add 'x' sign on the right corner
+ 
+### Observation #3
+![Kabupaten and Kota on Alamat Saya Problem](image/observation_2.png)
+ - **Reference**: Transcript #2 Line number 18.
+ - **Feedback**: Negative feedback.  
+ - **Incidence**: Participant was confused by "Kota" and "Kabupaten" input.  
+ - **Reason**: "Kabupaten" and "Kota" is hierarchically similar term
+ - **Resolution**: -
+ 
+ ### Observation #4
+![Autocomplete on Alamat Saya Problem](image/observation_2.png)
+ - **Reference**: Transcript #2 Line number 18.
+ - **Feedback**: Negative feedback.  
+ - **Incidence**: None.  
+ - **Reason**: In the real scenario, the options to be selected are plenty, autocomplete helps.
+ - **Resolution**: We'll add autocomplete for the dropdowns
