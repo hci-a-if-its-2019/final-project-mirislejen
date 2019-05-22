@@ -150,3 +150,8 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: None.  
  - **Reason**: No "Simpan" button.
  - **Resolution**: We'll add the button in the future
+ 
+## Re-Prototyping
+### Design Rationale
+### Mock-up Prototype
+Access the prototype [here](http://shopee-bajakan.000webhostapp.com/)  
