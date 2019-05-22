@@ -36,9 +36,39 @@ The tasks are remain unchanged. Below are the tasks:
 - User work at KPPBC Meulaboh
 
 ## Transcripts
-### Participant #1 (....)
-1. Lorem
-2. Ipsum
+### Participant #1 (Also Interviewed in CI)
+1.	F : Melanjutkan yang kemarin ya. Ini ada prototype dari shopee berdasarkan evaluasi kemarin, tolong minta masukannya yak
+2.	K : Oke zan
+3.	F : Oke, sekarang coba buka menu daftar
+4.	K : Oke, sudah
+5.	F : Gimana tanggapanmu ?
+6.	K : Sudah bagus sih, cuma tombol close nya kalau bisa ditaruh di dalam form. Soalnya tadi awal lihat gak kelihatan tombol close nya
+7.	F : Oke, sekarang coba buka menu login
+8.	K : Sudah
+9.	F : Ada masukan ?
+10.	K : Kurang lebih sama sih kayak yang menu daftar tadi, lainnya sudah oke
+11.	F : Oke, selanjutnya coba buka menu jual
+12.	K : Oke, terus ?
+13.	F : Gimana menurutmu ? mudah tidak menemukan tombol jualnya
+14.	K : Mudah zan, soalnya letaknya di kanan dekat tombol-tombol penting. Kalau yang asli kan kecil terus lokasi nya di bagian kiri bareng sama menu download dll
+15.	F : Oke, sekarang coba buat produk satu yak, produknya bebas
+16.	K : Oke, tunggu ya
+17.	F : Oke
+18.	K : Eh zan, ini kan ada keterangan waktu kita milih style, nah itu kalau bisa dihilangkan aja. Soalnya kurang berguna
+19.	F : Oalah, oke-oke. Dilanjut
+20.	K : Oke
+21.	K : Oke sudah
+22.	F : Gimana ? Ada masukan lain ?
+23.	K : Tidak ada zan. Sudah bagus
+24.	F : Okee. Coba sekarang tambah alamat toko
+25.	K : Oke tunggu
+26.	F : Oke
+27.	K : Sudah zan
+28.	F : Gimana tanggapanmu ?
+29.	K : Sudah bagus sih, provinsi kabupaten sama kecamatannya dipisah, jadi jelas. Cuma yang nama jalan itu kalau bisa sama seperti aslinya, jadi nama jalan atau gedung atau lainnya. Terus tombol close nya juga kalau bisa ditaruh di dalam form nya
+30.	F : Oh, Okee. Terima kasih yak atas waktunya
+31.	K : Oke, sama-sama zan
+
 
 ### Participant #2 (Also interviewed on CI)
 1. Ra : Ini nglanjut yang kemaren waktu itu yang ngetest shopee. Ini cuman prototype awal banget, jadi kalo jelek maafkan. Gapapa komentar dan kritik kalo memang ada.
@@ -113,7 +143,7 @@ The tasks are remain unchanged. Below are the tasks:
 ### Observation #2
 ![observation2_problem](https://user-images.githubusercontent.com/33054425/58177263-425cdc80-7cce-11e9-9299-21c9d7d208d2.JPG)
 ![observation4_problem](https://user-images.githubusercontent.com/33054425/58177320-5bfe2400-7cce-11e9-8cd4-849ebb37239f.JPG)
- - **Reference**: Transcript #3 number 8,12,29.
+ - **Reference**: Transcript #1 number 6,10,29. Transcript #3 number 8,12,29.
  - **Feedback**: Negative feedback 
  - **Incidence**: -  
  - **Reason**: Button is located outside of form, maybe you can put it in the form
@@ -137,16 +167,21 @@ The tasks are remain unchanged. Below are the tasks:
  
 ### Observation #5
 ![observation3_problem](https://user-images.githubusercontent.com/33054425/58178022-9e743080-7ccf-11e9-9d36-0bd32cdfb47f.JPG)
- - **Reference**: Transcript #3 number 23
+ - **Reference**: Transcript #1 number 18. Transcript #3 number 23
  - **Feedback**: Negative feedback  
  - **Incidence**: -  
  - **Reason**: Most of people know the meaning of most 'style' words/category, so dont add more explanation
  - **Resolution**: We'll delete it
  
  ### Observation #6
-![Save Button on Jasa Kirim Problem](image/observation_2.png)
+![Save Button on Jasa Kirim Problem](image/observation_5.png)
  - **Reference**: Transcript #2 Line number 22.
  - **Feedback**: Neutral feedback.  
  - **Incidence**: None.  
  - **Reason**: No "Simpan" button.
  - **Resolution**: We'll add the button in the future
+ 
+## Re-Prototyping
+### Design Rationale
+### Mock-up Prototype
+Access the prototype [here](http://shopee-bajakan.000webhostapp.com/)  
