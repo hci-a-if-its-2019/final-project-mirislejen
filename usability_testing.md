@@ -129,6 +129,41 @@ The tasks are remain unchanged. Below are the tasks:
 30.	F : Oke, terima kasih atas waktunya
 31.	S : Yoi sama-sama
 
+### Participant #4 (...)
+ipsum
+
+### Participant #5 (Also Interviewed on CI)
+1.	F : Melanjutkan yang kemarin ya. Ini ada prototype shopee, tolong saran dan masukannya ganti
+2.	A : Oke gan
+3.	F : Oke, sekarang coba buka laman daftar yang ada di prototype
+4.	A : Sudah gan
+5.	F : Gimana tanggapanmu ?
+6.	A : Sudah bagus gan, cuma tombol close nya kalau bisa dipindah lokasinya, terus diganti tanda silang di pojok kanan atas saja sebaiknya
+7.	F : Oke, sekarang lanjut ke laman login
+8.	A : Sudah gan, masukannya kurang lebih sama sih seperti laman daftar. Lainnya sudah bagus. Ada menu daftar nya juga di laman login, jadi yang belum punya akun klik link itu
+9.	F : Oke, sekarang lanjut buka laman penjualan
+10.	A : Oke, wait gan
+11.	F : Oke
+12.	A : Sudah gan
+13.	F : Gimana menurutmu ?
+14.	A : Aman gan, menu jualnya mudah terlihat. Beda sama yang aslinya
+15.	F : Oke, selanjutnya coba buat satu produk, bebas
+16.	A : Oke, wait gan
+17.	F : Oke
+18.	A : Sudah gan
+19.	F : Ada kendala waktu pengisian detil produk ? atau ada masukan mungkin
+20.	A : Tidak ada gan, aman
+21.	F : Oke, sekarang coba tambah alamat toko
+22.	A : Oke, wait-wait
+23.	F : Okee
+24.	A : Sudah gan
+25.	F : Gimana tanggapanmu ?
+26.	A : Sudah cukup bagus, pilihan provinsi, kabupaten, kecamatannya dipisah. Tidak membingungkan. Cuma tombol close sama Nama Kota, tulisan kolomnya nama Kota, tapi yang keluar nama kecamatan
+27.	F : Oke, mungkin yang Kota terus keluarnya kecamatan itu salah tulis
+28.	A : Oh, oke-oke. Lainnya itu aman gan
+29.	F : Okee, terima kasih gan atas waktunya
+30.	A : Oke sama-sama gan
+
 
 ## Observations
 
@@ -143,7 +178,7 @@ The tasks are remain unchanged. Below are the tasks:
 ### Observation #2
 ![observation2_problem](https://user-images.githubusercontent.com/33054425/58177263-425cdc80-7cce-11e9-9299-21c9d7d208d2.JPG)
 ![observation4_problem](https://user-images.githubusercontent.com/33054425/58177320-5bfe2400-7cce-11e9-8cd4-849ebb37239f.JPG)
- - **Reference**: Transcript #1 number 6,10,29. Transcript #3 number 8,12,29.
+ - **Reference**: Transcript #1 number 6,10,29. Transcript #3 number 8,12,29. Transcript #5 number 6,8,26
  - **Feedback**: Negative feedback 
  - **Incidence**: -  
  - **Reason**: Button is located outside of form, maybe you can put it in the form
