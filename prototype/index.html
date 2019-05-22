@@ -14,12 +14,12 @@
             background-color: rgb(241, 91, 43);
             border: 1px solid rgb(241, 91, 43);
             width: 100vw;
-            height: 100px;
+            height: 130px;
       }
       button.upper-right{
             position: relative;
-            left: calc(100vw - 270px);
-            width: 80px;
+            left: calc(100vw - 380px);
+            width: 120px;
             top: 8px;
             font-size: 15px;
             display: inline-flexbox;
@@ -61,13 +61,18 @@
             transform: scale(1.25, 1.25);
             text-decoration-line: underline;
       }
+      button > p{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+      }
   </style>
 </head>
 <body>
       <div id="header">
-            <a href='sellerlogin.html'><button class="upper-right">Jual</button></a>
-            <button class="upper-right" onclick="toggleoverlay('loginoverlay')">Login</button>
-            <button class="upper-right" onclick="toggleoverlay('registeroverlay')">Daftar</button><br/><br/>
+            <a href='sellerlogin.html'><button class="upper-right"><p>Jual</p></button></a>
+            <button class="upper-right" onclick="toggleoverlay('loginoverlay')"><p>Login</p></button>
+            <button class="upper-right" onclick="toggleoverlay('registeroverlay')"><p>Daftar</p></button><br/><br/>
             <div style='position: absolute; left: 50px; top: 10px;'>
                   <img src="images/shopeewhite.png" width='250px'>
             </div>
@@ -78,13 +83,13 @@
                   </center>
             </div>
       </div>
-      <img src='images/indexfiller.png' width="device-width" style="position: absolute; top: 110px;">
+      <img src='images/indexfiller.png' width="device-width" style="position: absolute; top: 140px;">
     
       <div id='loginoverlay' class='overlay'>
-            <button class="upper-right" onclick="toggleoverlay('loginoverlay')">Close</button>
             <center>
                   <div id='loginbox'>      
                         <form action="sellerhome.html" method="post">
+                              <button type='button' style='position: absolute; right: 8px;' onclick="toggleoverlay('loginoverlay')"><b>X</b></button>
                               <h3>LOGIN</h3> 
                               <p style="position: absolute; left: 50px; display: inline;">Username</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
@@ -99,10 +104,10 @@
       </div>
 
       <div id='registeroverlay' class='overlay'>
-            <button class="upper-right" onclick="toggleoverlay('registeroverlay')">Close</button>
             <center>
                   <div id='registerbox'>
                         <form action="sellerhome.html" method="post">
+                              <button type='button' style='position: absolute; right: 8px;' onclick="toggleoverlay('registeroverlay')"><b>X</b></button>
                               <h3>DAFTAR</h3>  
                               <p style="position: absolute; left: 50px; display: inline;">Username</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>

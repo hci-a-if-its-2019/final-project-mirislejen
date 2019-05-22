@@ -25,7 +25,7 @@
           border-collapse: collapse;
           border-bottom: 1px solid rgb(163, 163, 163);
       }
-      .selectedposition{
+      .datalistedposition{
         background-color: rgb(179, 179, 179);
       }
       tr > td{
@@ -73,6 +73,7 @@
             font-size: 15px;
             display: inline-flexbox;
       }
+
       #logoutbutton{
             position: relative;
             left: calc(100vw - 110px);
@@ -107,7 +108,7 @@
           </tr>
           <tr><td><a href='shopsetting_profile.html'>Profil Toko</a></td></tr>
           <tr><td class='sidebaritem'><a href='shopsetting_deliveryservice.html'>Jasa Kirim</a></td></tr>
-          <tr><td class='sidebaritem selectedposition'>Alamat Saya</td></tr>
+          <tr><td class='sidebaritem datalistedposition'>Alamat Saya</td></tr>
           <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Dari Pembeli</a></td></tr>
           <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Performa Toko</a></td></tr>
           <tr><td class='sidebaritem'><a onclick="alert('Sorry, this feature/page not implemented by developer');">Sistem Poin Penalti</a></td></tr>
@@ -128,10 +129,10 @@
       </table>
       
       <div id='addressoverlay' class='overlay'>
-            <button class="upper-right" onclick="toggleoverlay('addressoverlay')">Close</button>
             <center>
                   <div id='addressbox'>
                         <form action="" method="post">
+                              <button type='button' style='position: absolute; right: 8px;' onclick="toggleoverlay('addressoverlay')"><b>X</b></button>
                               <h3>ALAMAT BARU</h3>  
                               <p style="position: absolute; left: 50px; display: inline;">Nama Alamat Baru</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/>
@@ -139,24 +140,27 @@
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Provinsi</p>
                               <!-- <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/> -->
-                              <select style="position: absolute; right: 50px; display: inline; width: 16vw;">
-                                    <option>Provinsi 1</option>
-                                    <option>Provinsi 2</option>
-                              </select>
+                              <input list="province" style="position: absolute; right: 50px; display: inline; width: 16vw;">
+                              <datalist id='province'>
+                                    <option value='Jawa Timur'/>
+                                    <option value='Kalimantan Utara'/>
+                              </datalist>
                               <br/><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Kabupaten</p>
                               <!-- <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/> -->
-                              <select style="position: absolute; right: 50px; display: inline; width: 16vw;">
-                                    <option>Kabupaten 1</option>
-                                    <option>Kabupaten 2</option>
-                              </select>
+                              <input list="kabupaten" style="position: absolute; right: 50px; display: inline; width: 16vw;">
+                              <datalist id='kabupaten'>
+                                    <option value='Kediri'/>
+                                    <option value='Surabaya'/>
+                              </datalist>
                               <br/><br/><br/>
-                              <p style="position: absolute; left: 50px; display: inline;">Kota</p>
+                              <p style="position: absolute; left: 50px; display: inline;">Kecamatan</p>
                               <!-- <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/> -->
-                              <select style="position: absolute; right: 50px; display: inline; width: 16vw;">
-                                    <option>Kecamatan 1</option>
-                                    <option>Kecamatan 2</option>
-                              </select>
+                              <input list="kecamatan" style="position: absolute; right: 50px; display: inline; width: 16vw;">
+                              <datalist id='kecamatan'>
+                                    <option value='Kauman'/>
+                                    <option value='Sukolilo'/>
+                              </datalist>
                               <br/><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Nama Jalan</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/>
