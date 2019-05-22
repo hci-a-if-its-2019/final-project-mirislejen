@@ -110,7 +110,7 @@ The tasks are remain unchanged. Below are the tasks:
  - **Reason**: Button is located at the top most page, and somehow small, making it quite hard to notice.
  - **Resolution**: We have not provided any solutions yet to this problem.
  
- ### Observation #2
+### Observation #2
 ![observation2_problem](https://user-images.githubusercontent.com/33054425/58177263-425cdc80-7cce-11e9-9299-21c9d7d208d2.JPG)
 ![observation4_problem](https://user-images.githubusercontent.com/33054425/58177320-5bfe2400-7cce-11e9-8cd4-849ebb37239f.JPG)
  - **Reference**: Transcript #3 number 8,12,29.
@@ -127,7 +127,7 @@ The tasks are remain unchanged. Below are the tasks:
  - **Reason**: "Kabupaten" and "Kota" is hierarchically similar term
  - **Resolution**: -
  
- ### Observation #4
+### Observation #4
 ![Autocomplete on Alamat Saya Problem](image/observation_2.png)
  - **Reference**: Transcript #2 Line number 18.
  - **Feedback**: Negative feedback.  
@@ -135,10 +135,18 @@ The tasks are remain unchanged. Below are the tasks:
  - **Reason**: In the real scenario, the options to be selected are plenty, autocomplete helps.
  - **Resolution**: We'll add autocomplete for the dropdowns
  
-  ### Observation #5
+### Observation #5
 ![observation3_problem](https://user-images.githubusercontent.com/33054425/58178022-9e743080-7ccf-11e9-9d36-0bd32cdfb47f.JPG)
  - **Reference**: Transcript #3 number 23
  - **Feedback**: Negative feedback  
  - **Incidence**: -  
  - **Reason**: Most of people know the meaning of most 'style' words/category, so dont add more explanation
  - **Resolution**: We'll delete it
+ 
+ ### Observation #6
+![Save Button on Jasa Kirim Problem](image/observation_2.png)
+ - **Reference**: Transcript #2 Line number 22.
+ - **Feedback**: Neutral feedback.  
+ - **Incidence**: None.  
+ - **Reason**: No "Simpan" button.
+ - **Resolution**: We'll add the button in the future
