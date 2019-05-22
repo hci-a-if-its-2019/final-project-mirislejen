@@ -22,8 +22,8 @@ The tasks are remain unchanged. Below are the tasks:
 
 ### Participant 3: 
 - User is a 22 years old Indonesian male
-- User never use Shopee
-- User study at Product Design Department ITS
+- User never open Shopee on website
+- User study at Informatics department ITS
 
 ### Participant 4: 
 - User is a 20 years old Indonesian male
@@ -66,9 +66,39 @@ The tasks are remain unchanged. Below are the tasks:
 23. Ra: Oh ya sip, thank you sarannya. Udah se itu aja tadi. Terima kasih banyak yo waktunya
 24. R : Yoi gan sama-sama
 
-### Participant #3 (....)
-1. Lorem
-2. Ipsum
+### Participant #3 (New Participant)
+1.	F : Sudah pernah menggunakan shopee ?
+2.	S : Sudah kalau yang aplikasi android, kalau yang web belum pernah buka
+3.	F : Oke, nah aku ini ada prototype awal buat website shopee
+4.	S : Oke
+5.	F : Sekarang, coba cari laman daftar
+6.	S : Oke, sudah
+7.	F : Mungkin ada masukan untuk tampilan daftarnya ?
+8.	S : Tombol 'close' nya mungkin dipindah di dalam form, misal tanda silang di pojok kanan atas
+9.	F : Oke, trus sekarang buka laman login
+10.	S : oke, terus ?
+11.	F : Gimana menurutmu ?
+12.	S : Sama seperti laman daftar sih masalahnya. Lainnya sudah oke
+13.	F : Oke, sekarang coba buka halaman jual
+14.	S : Oke, wait
+15.	S : Sudah, terus ?
+16.	F : Ada kendala waktu mencari menu jual ?
+17.	S : Tidak sih
+18.	F : Oke, sekarang coba buat satu produk, produknya bebas
+19.	S : Oke, bentar
+20.	F : Oke
+21.	S : Sudah
+22.	F : Ada masukan atau kendala waktu mengisi detil produknya ?
+23.	S : Tidak ada sih, mungkin bagian kolom style nya, kalau bisa gk usah dikasih keterangan. Soalnya menurutku sebagian besar orang yang mau belanja paham
+24.	F : Oke, sekarang coba ganti alamat toko
+25.	S : Oke, bentar
+26.	F : Oke
+27.	S : Sudah
+28.	F : Ada masukan mungkin ?
+29.	S : Tidak ada sih, aman
+30.	F : Oke, terima kasih atas waktunya
+31.	S : Yoi sama-sama
+
 
 ## Observations
 ### Observation #1
@@ -78,19 +108,3 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: None.  
  - **Reason**: Button is located at the top most page, and somehow small, making it quite hard to notice.
  - **Resolution**: We have not provided any solutions yet to this problem.
- 
-### Observation #2
-![Kabupaten and Kota on Alamat Saya Problem](image/observation_2.png)
- - **Reference**: Transcript #2 Line number 18.
- - **Feedback**: Negative feedback.  
- - **Incidence**: Participant was confused by "Kota" and "Kabupaten" input.  
- - **Reason**: "Kabupaten" and "Kota" is hierarchically similar term
- - **Resolution**: -
- 
- ### Observation #3
-![Autocomplete on Alamat Saya Problem](image/observation_2.png)
- - **Reference**: Transcript #2 Line number 18.
- - **Feedback**: Negative feedback.  
- - **Incidence**: None.  
- - **Reason**: In the real scenarion, the options to be selected are plenty, autocomplete helps.
- - **Resolution**: We'll add autocomplete for the dropdowns
