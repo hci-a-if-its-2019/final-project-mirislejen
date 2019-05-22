@@ -129,10 +129,7 @@ The tasks are remain unchanged. Below are the tasks:
 30.	F : Oke, terima kasih atas waktunya
 31.	S : Yoi sama-sama
 
-### Participant #4 (...)
-ipsum
-
-### Participant #5 (Also Interviewed on CI)
+### Participant #4 (Also Interviewed on CI)
 1.	F : Melanjutkan yang kemarin ya. Ini ada prototype shopee, tolong saran dan masukannya ganti
 2.	A : Oke gan
 3.	F : Oke, sekarang coba buka laman daftar yang ada di prototype
@@ -163,6 +160,9 @@ ipsum
 28.	A : Oh, oke-oke. Lainnya itu aman gan
 29.	F : Okee, terima kasih gan atas waktunya
 30.	A : Oke sama-sama gan
+
+### Participant #5 (...)
+
 
 
 ## Observations
