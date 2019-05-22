@@ -178,7 +178,7 @@ The tasks are remain unchanged. Below are the tasks:
 ### Observation #2
 ![observation2_problem](https://user-images.githubusercontent.com/33054425/58177263-425cdc80-7cce-11e9-9299-21c9d7d208d2.JPG)
 ![observation4_problem](https://user-images.githubusercontent.com/33054425/58177320-5bfe2400-7cce-11e9-8cd4-849ebb37239f.JPG)
- - **Reference**: Transcript #1 number 6,10,29. Transcript #3 number 8,12,29. Transcript #5 number 6,8,26
+ - **Reference**: Transcript #1 number 6,10,29. Transcript #3 number 8,12,29. Transcript #4 number 6,8,26
  - **Feedback**: Negative feedback 
  - **Incidence**: -  
  - **Reason**: Button is located outside of form, maybe you can put it in the form
@@ -215,6 +215,14 @@ The tasks are remain unchanged. Below are the tasks:
  - **Incidence**: None.  
  - **Reason**: No "Simpan" button.
  - **Resolution**: We'll add the button in the future
+ 
+  ### Observation #7
+![Observation7_problem](https://user-images.githubusercontent.com/33054425/58199211-2f600180-7cfa-11e9-8f7e-513a95a60bae.JPG)
+ - **Reference**: Transcript #1 number 29. Transcript #4 number 26
+ - **Feedback**: Positive Feedback  
+ - **Incidence**: - 
+ - **Reason**: 'Provinsi', 'Kabupaten', 'Kecamatan' column is separated
+ - **Resolution**: -
  
 ## Re-Prototyping
 ### Design Rationale
