@@ -95,7 +95,7 @@ The tasks are remain unchanged. Below are the tasks:
 26.	F : Oke
 27.	S : Sudah
 28.	F : Ada masukan mungkin ?
-29.	S : Tidak ada sih, aman
+29.	S : Tidak ada sih, mungkin sama kayak yang login sama daftar. tombol untuk kembalinya di taruh di form nya aja, yang lainnya aman
 30.	F : Oke, terima kasih atas waktunya
 31.	S : Yoi sama-sama
 
