@@ -65,3 +65,16 @@ The tasks are remain unchanged. Below are the tasks:
 22. R : *langsung berhasil melakukan task*. Mungkin kurang dikasih tombol save ta simpan gitu, biar usernya yakin aja.
 23. Ra: Oh ya sip, thank you sarannya. Udah se itu aja tadi. Terima kasih banyak yo waktunya
 24. R : Yoi gan sama-sama
+
+### Participant #3 (....)
+1. Lorem
+2. Ipsum
+
+## Observations
+### Observation #1
+!["Jual" Button Problem](image/observation_1.png)
+ - **Reference**: Transcript #2 Line number 8-10.
+ - **Feedback**: Negative feedback.  
+ - **Incidence**: None.  
+ - **Reason**: Button is located at the top most page, and somehow small, making it quite hard to notice.
+ - **Resolution**: We have not provided any solutions yet to this problem.
