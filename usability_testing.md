@@ -31,9 +31,9 @@ The tasks are remain unchanged. Below are the tasks:
 - User study at Informatics Department ITS
 
 ### Participant 5: 
-- User is a 21 years old Indonesian male
+- User is a 22 years old Indonesian male
 - User never use Shopee
-- User work at KPPBC Meulaboh
+- User study at Product Design Department ITS
 
 ## Transcripts
 ### Participant #1 (Also Interviewed in CI)
@@ -161,7 +161,36 @@ The tasks are remain unchanged. Below are the tasks:
 29.	F : Okee, terima kasih gan atas waktunya
 30.	A : Oke sama-sama gan
 
-### Participant #5 (...)
+### Participant #5 (Also Interviewed on CI)
+1.	F : Melanjutkan yang kemarin gan, ini ada prototype awal untuk shopee. Mohon kritik dan masukannya gan
+2.	M : Oke gan
+3.	F : Oke gan, langsung saja buka laman daftar
+4.	M : Oke, sudah
+5.	F : Gimana gan, ada masukan ?
+6.	M : Sudah lumayan sih, paling cuma tombol untuk back nya. Kalau bisa  dipindah lokasinya. Soalnya tombol close nya agak susah terlihat
+7.	F : Oke gan, selanjutnya buka laman login gan
+8.	M : Wait, done
+9.	F : Ada tanggapan ?
+10.	M : Sama seperti laman daftar masukannya. Lainnya sudah bagus
+11.	F : Oke-oke, terus coba buka menu jual
+12.	M : Oke gan, wait
+13.	F : Oke
+14.	M : Done gan
+15.	F : Oke, gimana menurutmu ?
+16.	M : Kalau bisa tombol jualnya lebih diperbesar lagi, supaya terlihat
+17.	F : Oke, sekarang buat satu produk, bebas
+18.	M : Oke, wait
+19.	F : Oke
+20.	M : Done, gan
+21.	F : Ada tanggapan atau masukan ?
+22.	M : Tidak ada sih, sudah cukup bagus
+23.	F : Okee, sekarang coba tambah alamat toko
+24.	M : Oke wait
+25.	M : Sudah gan
+26.	F : Gimana ? Ada tanggapan ?
+27.	M : Tidak ada sih, sudah bagus. Milih provinsi, kabupaten, dan kecamatan dipisah. Paling tulisan kota yang disamping kolom kecamatan itu diubah jadi kecamatan. Terus kalau bisa kolom Kabupaten jadi Kabupaten/kota
+28.	F : Oke, Terima kasih gan atas waktunya
+29.	M : Sama-sama gan
 
 
 
@@ -169,7 +198,7 @@ The tasks are remain unchanged. Below are the tasks:
 
 ### Observation #1
 !["Jual" Button Problem](image/observation_1.png)
- - **Reference**: Transcript #2 Line number 8-10.
+ - **Reference**: Transcript #2 Line number 8-10. Trancsript #5 number 16
  - **Feedback**: Negative feedback.  
  - **Incidence**: None.  
  - **Reason**: Button is located at the top most page, and somehow small, making it quite hard to notice.
@@ -218,7 +247,7 @@ The tasks are remain unchanged. Below are the tasks:
  
   ### Observation #7
 ![Observation7_problem](https://user-images.githubusercontent.com/33054425/58199211-2f600180-7cfa-11e9-8f7e-513a95a60bae.JPG)
- - **Reference**: Transcript #1 number 29. Transcript #4 number 26
+ - **Reference**: Transcript #1 number 29. Transcript #4 number 26. Transcript #5 number 27
  - **Feedback**: Positive Feedback  
  - **Incidence**: - 
  - **Reason**: 'Provinsi', 'Kabupaten', 'Kecamatan' column is separated
