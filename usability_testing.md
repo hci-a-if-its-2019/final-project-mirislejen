@@ -259,5 +259,6 @@ The tasks are remain unchanged. Below are the tasks:
 ![20190523_083047](https://user-images.githubusercontent.com/33054425/58219609-c302f380-7d35-11e9-9142-547144370cc0.jpg)
 
 ### Design Rationale
+Based on the observations above, we've fixed some problems that are raised. However we decided not to fix the problem in observation 6, because it's meant to be autosave, just like in the real website. There is a contradiction between observation 5 and participant 2's transcript at line 14. The knowledge about style is general/common, so we dropped the brief explanation about the styles. The big problem is actually observation 1, we probably came up with a solution, but in our opinion it's not good enough.
 ### Mock-up Prototype
 Access the prototype [here](http://shopee-bajakan.000webhostapp.com/)  
