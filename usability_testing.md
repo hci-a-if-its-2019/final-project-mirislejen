@@ -254,6 +254,10 @@ The tasks are remain unchanged. Below are the tasks:
  - **Resolution**: -
  
 ## Re-Prototyping
+
+### Sketch
+![20190523_083047](https://user-images.githubusercontent.com/33054425/58219609-c302f380-7d35-11e9-9142-547144370cc0.jpg)
+
 ### Design Rationale
 ### Mock-up Prototype
 Access the prototype [here](http://shopee-bajakan.000webhostapp.com/)  
