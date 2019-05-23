@@ -6,6 +6,7 @@
         name="viewport">
   <meta content="ie=edge"
         http-equiv="X-UA-Compatible">
+	<link rel="stylesheet" type="text/css" href="mantep1.css">
   <title>Shopee: Index</title>
   <style>
       #header{
@@ -46,7 +47,7 @@
             padding-top: 20px;
             border: 2px solid gray;
             width: 400px;
-            height: 240px;
+           /* height: 240px; */
             background-color: white;
       }
       div#registerbox form{
@@ -54,9 +55,14 @@
             padding-top: 20px;
             border: 2px solid gray;
             width: 400px;
-            height: 200px;
+          /*  height: 200px; */
             background-color: white;
       }
+	  
+	  warna {
+			color:#f4623a;
+	  }
+	  
       a.misc:hover{
             transform: scale(1.25, 1.25);
             text-decoration-line: underline;
@@ -95,8 +101,9 @@
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Password</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
-                              <button onclick='redirection()' type="submit">Login</button><br/><br/>
-                              <a class='misc' onclick='gg()' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
+                              <!--<button onclick='redirection()' type="submit">Login</button><br/><br/>-->
+							  <p class="btn btn-outline-primary" type="submit" onclick='redirection()'>Login</p>
+                              <a class='misc warna' onclick='gg()' style='position: absolute; right: 10px;' on>Lupa Password</a><br/>
                         </form>
                         
                   </div>
@@ -112,8 +119,8 @@
                               <p style="position: absolute; left: 50px; display: inline;">Username</p>
                               <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Password</p>
-                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/><br/>
-                              <button onclick='redirection()' type="submit">Daftar</button><br/><br/>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline;"><br/><br/>
+                              <p class="btn btn-outline-primary" type="submit" onclick='redirection()'>Daftar</p>
                         </form>
                         
                   </div>

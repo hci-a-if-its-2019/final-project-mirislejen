@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" type="text/css" href="mantep1.css">
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
@@ -93,7 +94,8 @@
       
       <br/><br/><br/>
       <a href="sellerhome.html"><button style="padding: 10px; margin-bottom: 8px;"><b>Kembali</b></button></a>
-      <button style="padding: 10px; margin-bottom: 8px; position: relative; left: 70vw;" onclick="toggleoverlay('addressoverlay')"><b>+ Tambah Alamat</b></button>
+      <!--<button style="padding: 10px; margin-bottom: 8px; position: relative; left: 70vw;" onclick="toggleoverlay('addressoverlay')"><b>+ Tambah Alamat</b></button>-->
+	  <p class="btn btn-outline-primary" style="padding: 10px; margin-bottom: 8px; position: relative; left: 70vw;" onclick="toggleoverlay('addressoverlay')"><b>+ Tambah Alamat</b></p>
       <br/>
       
       <table id='sidebar'>
@@ -163,9 +165,10 @@
                               </datalist>
                               <br/><br/><br/>
                               <p style="position: absolute; left: 50px; display: inline;">Nama Jalan</p>
-                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/><br/>
+                              <input type="text" class='logininput' style="position: absolute; right: 50px; display: inline; width: 16vw;"><br/>
                               <br/>
-                              <button onclick='simpanalert()' type="submit">Tambah</button><br/><br/>
+                              <!--<button onclick='simpanalert()' type="submit">Tambah</button><br/><br/>-->
+							  <p class="btn btn-outline-primary" type="submit" onclick='simpanalert()'>Tambah</p>
                         </form>
                         
                   </div>
